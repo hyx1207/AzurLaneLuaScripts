@@ -105,9 +105,10 @@ slot0.AddBuffDrop = function(slot0)
 	else
 		getProxy(NewEducateProxy):AddBuff(slot0.id, slot0.number)
 
-		slot1 = slot0.number > 0 and pg.child2_benefit_list[slot0.id].is_show == 1 and slot0 or nil
+		slot1 = pg.child2_benefit_list[slot0.id]
+		slot2 = slot0.number > 0 and slot1.is_show == 1 and slot1.type ~= NewEducateBuff.TYPE.TALENT and slot0 or nil
 
-		return slot1
+		return slot2
 	end
 end
 

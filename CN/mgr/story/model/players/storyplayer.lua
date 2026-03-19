@@ -647,17 +647,23 @@ slot0.UpdateOptionTxt = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
-	slot4 = slot1:Find("type1")
+	slot3 = getProxy(NewEducateProxy):GetCurChar()
 	slot5 = slot1:Find("type2")
 
-	if getProxy(NewEducateProxy):GetCurChar() and slot4 then
+	if slot1:Find("type1") then
+		setActive(slot4, false)
+	end
+
+	if slot5 then
+		setActive(slot5, false)
+	end
+
+	if slot3 and slot4 then
 		if slot2 and slot2 == 1 then
 			LoadImageSpriteAsync("neweducateicon/" .. slot3:GetPersonalityTagOptionBg(slot2), slot4)
 		end
 
 		setActive(slot4, slot6)
-	elseif slot4 and not slot2 then
-		setActive(slot4, false)
 	end
 
 	if slot3 and slot5 then
@@ -666,8 +672,6 @@ slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
 		end
 
 		setActive(slot5, slot6)
-	elseif slot5 and not slot2 then
-		setActive(slot5, false)
 	end
 end
 
