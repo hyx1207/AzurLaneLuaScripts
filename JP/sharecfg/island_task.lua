@@ -255,6 +255,15 @@ pg.island_task = setmetatable({
 		[5] = {
 			50000001,
 			50000002,
+			51001001,
+			51001002,
+			51001003,
+			51002001,
+			51002002,
+			51002003,
+			51003001,
+			51003002,
+			51003003,
 			50001001,
 			50001002,
 			50001003,
@@ -291,6 +300,12 @@ pg.island_task = setmetatable({
 			50003006,
 			50003007,
 			50003008
+		},
+		[9] = {
+			51001000,
+			51002000,
+			51003000,
+			20013000
 		},
 		[8] = {
 			80001001,
@@ -383,9 +398,6 @@ pg.island_task = setmetatable({
 			80001228,
 			80001229,
 			80001230
-		},
-		[9] = {
-			20013000
 		}
 	},
 	all = {
@@ -478,6 +490,18 @@ pg.island_task = setmetatable({
 		10019999,
 		50000001,
 		50000002,
+		51001000,
+		51001001,
+		51001002,
+		51001003,
+		51002000,
+		51002001,
+		51002002,
+		51002003,
+		51003000,
+		51003001,
+		51003002,
+		51003003,
 		50001001,
 		50001002,
 		50001003,
@@ -4547,6 +4571,480 @@ pg.base.island_task = {
 				41,
 				1,
 				2000
+			}
+		}
+	},
+	[51001000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "育成キャラ招待",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51001000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510010001
+		},
+		reward_show = {}
+	},
+	[51001001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "データ導入中Ⅰ",
+		type = 5,
+		task_desc = "まもなく特別な来訪者が離島にやってくる。ここの開発にすごく興味があるようで……特産品を用意して、離島の発展状況を知ってもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51001001,
+		unlock_condition = {
+			{
+				2,
+				51001000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "データ導入中Ⅱ",
+		type = 5,
+		task_desc = "まもなく特別な来訪者が離島にやってくる。ここの開発にすごく興味があるようで……特産品を用意して、離島の発展状況を知ってもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51001002,
+		unlock_condition = {
+			{
+				2,
+				51001001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "データ導入中Ⅲ",
+		type = 5,
+		task_desc = "まもなく特別な来訪者が離島にやってくる。ここの開発にすごく興味があるようで……特産品を用意して、離島の発展状況を知ってもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51001003,
+		unlock_condition = {
+			{
+				2,
+				51001002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010013,
+			510010014
+		},
+		reward_show = {
+			{
+				44,
+				990002,
+				1
+			}
+		}
+	},
+	[51002000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "いたずらっ子襲来",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51002000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510020001
+		},
+		reward_show = {}
+	},
+	[51002001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "いたずらっ子襲来Ⅰ",
+		type = 5,
+		task_desc = "穏やかな日々はおしまい！元気いっぱいないたずらっ子がこっちに向かってる！おいしいものを用意しておかないと、ずっとまとわりつかれるかも＞＜",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51002001,
+		unlock_condition = {
+			{
+				2,
+				51002000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "いたずらっ子襲来Ⅱ",
+		type = 5,
+		task_desc = "穏やかな日々はおしまい！元気いっぱいないたずらっ子がこっちに向かってる！おいしいものを用意しておかないと、ずっとまとわりつかれるかも＞＜",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51002002,
+		unlock_condition = {
+			{
+				2,
+				51002001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "いたずらっ子襲来Ⅲ",
+		type = 5,
+		task_desc = "穏やかな日々はおしまい！元気いっぱいないたずらっ子がこっちに向かってる！おいしいものを用意しておかないと、ずっとまとわりつかれるかも＞＜",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51002003,
+		unlock_condition = {
+			{
+				2,
+				51002002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020013,
+			510020014
+		},
+		reward_show = {
+			{
+				44,
+				990001,
+				1
+			}
+		}
+	},
+	[51003000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "物静かな来訪者",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51003000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510030001
+		},
+		reward_show = {}
+	},
+	[51003001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "物静かな来訪者Ⅰ",
+		type = 5,
+		task_desc = "おずおずとした小さな影がずっとこちらを眺めている……離島の特産品を用意して、少しずつここに慣れてもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51003001,
+		unlock_condition = {
+			{
+				2,
+				51003000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "物静かな来訪者Ⅱ",
+		type = 5,
+		task_desc = "おずおずとした小さな影がずっとこちらを眺めている……離島の特産品を用意して、少しずつここに慣れてもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51003002,
+		unlock_condition = {
+			{
+				2,
+				51003001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "物静かな来訪者Ⅲ",
+		type = 5,
+		task_desc = "おずおずとした小さな影がずっとこちらを眺めている……離島の特産品を用意して、少しずつここに慣れてもらおう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "育成キャラ招待",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "育成キャラ招待",
+		id = 51003003,
+		unlock_condition = {
+			{
+				2,
+				51003002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030013,
+			510030014
+		},
+		reward_show = {
+			{
+				44,
+				990003,
+				1
 			}
 		}
 	},

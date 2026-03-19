@@ -15,7 +15,7 @@ return {
 			actorName = 49905,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone3/drom3d_aegir_ik_furniture2_tone3",
+			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone5/drom3d_aegir_ik_furniture2_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "この程度で動揺すると思った？せいぜい頑張りなさい",
@@ -33,6 +33,11 @@ return {
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2023,
+							name = "IK_desk02_idle02_fb01_ZZ",
+							type = "item_action"
 						},
 						{
 							skip = true,

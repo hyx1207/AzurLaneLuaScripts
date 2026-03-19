@@ -4258,7 +4258,75 @@ pg.memory_template = setmetatable({
 		20146,
 		20147,
 		20148,
-		20149
+		20149,
+		20150,
+		20151,
+		20152,
+		20153,
+		20154,
+		20155,
+		20156,
+		20157,
+		20158,
+		20159,
+		20160,
+		20161,
+		20162,
+		20163,
+		20164,
+		20165,
+		20166,
+		20167,
+		20168,
+		20169,
+		20170,
+		20171,
+		20172,
+		20173,
+		20174,
+		20175,
+		20176,
+		20177,
+		20178,
+		20179,
+		20180,
+		20181,
+		20182,
+		20183,
+		20184,
+		20185,
+		20186,
+		20187,
+		20188,
+		20189,
+		20190,
+		20191,
+		20192,
+		20193,
+		20194,
+		20195,
+		20196,
+		20197,
+		20198,
+		20199,
+		20200,
+		20201,
+		20202,
+		20203,
+		20204,
+		20205,
+		20206,
+		20207,
+		20208,
+		20209,
+		20210,
+		20211,
+		20212,
+		20213,
+		20214,
+		20215,
+		20216,
+		20217
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -68120,6 +68188,1026 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"LINGYANGZHELAIFANGJISHI12"
+		}
+	},
+	[20150] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "スカベンジャー育成計画、始動！·上",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA1",
+		id = 20150,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA1"
+		}
+	},
+	[20151] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "スカベンジャー育成計画、始動！·下",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA2",
+		id = 20151,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA2"
+		}
+	},
+	[20152] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "初々しい登校日",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA3",
+		id = 20152,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA3"
+		}
+	},
+	[20153] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "メリーゴーラウンド",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA4",
+		id = 20153,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA4"
+		}
+	},
+	[20154] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "冬の温もり",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA5",
+		id = 20154,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA5"
+		}
+	},
+	[20155] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "うさぎたちとの一日",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA6",
+		id = 20155,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA6"
+		}
+	},
+	[20156] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "花咲く木の下",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA7",
+		id = 20156,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA7"
+		}
+	},
+	[20157] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ブランコでの約束",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA8",
+		id = 20157,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA8"
+		}
+	},
+	[20158] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "軽やかな期待Ⅰ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA9",
+		id = 20158,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA9"
+		}
+	},
+	[20159] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "軽やかな期待Ⅱ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA10",
+		id = 20159,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA10"
+		}
+	},
+	[20160] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "真夏のスプラッシュバトル",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA11",
+		id = 20160,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA11"
+		}
+	},
+	[20161] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "カブトムシの味",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA12",
+		id = 20161,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA12"
+		}
+	},
+	[20162] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "深夜の修復作業",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA13",
+		id = 20162,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA13"
+		}
+	},
+	[20163] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "絵の中の風景",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA14",
+		id = 20163,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA14"
+		}
+	},
+	[20164] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "雨の中のひと時",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA15",
+		id = 20164,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA15"
+		}
+	},
+	[20165] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "美しき冬を残して",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA16",
+		id = 20165,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA16"
+		}
+	},
+	[20166] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "見習航海士日誌",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA17",
+		id = 20166,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA17"
+		}
+	},
+	[20167] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最愛のあなたと、共に明日へⅠ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA18",
+		id = 20167,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA18"
+		}
+	},
+	[20168] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最愛のあなたと、共に明日へⅡ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA19",
+		id = 20168,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA19"
+		}
+	},
+	[20169] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "オシャレへの第一歩Ⅰ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA20",
+		id = 20169,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA20"
+		}
+	},
+	[20170] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "オシャレへの第一歩Ⅱ",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA21",
+		id = 20170,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA21"
+		}
+	},
+	[20171] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "少女の秘密",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA22",
+		id = 20171,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA22"
+		}
+	},
+	[20172] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "心に映る綺麗な品々",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA23",
+		id = 20172,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA23"
+		}
+	},
+	[20173] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "弦に込められた思い",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA24",
+		id = 20173,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA24"
+		}
+	},
+	[20174] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "この甘さをあなたに",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA25",
+		id = 20174,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA25"
+		}
+	},
+	[20175] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "写真に刻まれた春",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA26",
+		id = 20175,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA26"
+		}
+	},
+	[20176] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "初めての占い",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA27",
+		id = 20176,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA27"
+		}
+	},
+	[20177] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "共に歩む未来",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA28",
+		id = 20177,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA28"
+		}
+	},
+	[20178] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "共に歩む未来",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA29",
+		id = 20178,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA29"
+		}
+	},
+	[20179] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新しいスタート",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA30",
+		id = 20179,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA30"
+		}
+	},
+	[20180] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "進学の時",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA31",
+		id = 20180,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA31"
+		}
+	},
+	[20181] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "専業子供",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA32",
+		id = 20181,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA32"
+		}
+	},
+	[20182] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "オートクチュール職人",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA33",
+		id = 20182,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA33"
+		}
+	},
+	[20183] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "グルメ配信者",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA34",
+		id = 20183,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA34"
+		}
+	},
+	[20184] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ラノベ作家",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA35",
+		id = 20184,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA35"
+		}
+	},
+	[20185] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新聞記者",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA36",
+		id = 20185,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA36"
+		}
+	},
+	[20186] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "着ぐるみアクター",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA37",
+		id = 20186,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA37"
+		}
+	},
+	[20187] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "花屋の店長",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA38",
+		id = 20187,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA38"
+		}
+	},
+	[20188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "旅行家",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA39",
+		id = 20188,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA39"
+		}
+	},
+	[20189] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "釣りの達人",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA40",
+		id = 20189,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA40"
+		}
+	},
+	[20190] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "バリスタ",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA41",
+		id = 20190,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA41"
+		}
+	},
+	[20191] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "占い師",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA42",
+		id = 20191,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA42"
+		}
+	},
+	[20192] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "本屋の店員",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA43",
+		id = 20192,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA43"
+		}
+	},
+	[20193] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ピアニスト",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA44",
+		id = 20193,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA44"
+		}
+	},
+	[20194] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "標本士",
+		condition = "「TB育成」-スカベンジャーのエンディングをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA45",
+		id = 20194,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA45"
+		}
+	},
+	[20195] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "再会",
+		condition = "「TB育成」-スカベンジャーのメインストーリーをクリア",
+		story = "TANSUOZHEYANGCHENGJIHUA46",
+		id = 20195,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA46"
+		}
+	},
+	[20196] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "雨の日のお散歩",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU1",
+		id = 20196,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU1"
+		}
+	},
+	[20197] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "アフタヌーン・ティータイム",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU2",
+		id = 20197,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU2"
+		}
+	},
+	[20198] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "書類整理",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU3",
+		id = 20198,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU3"
+		}
+	},
+	[20199] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "プレゼント選び",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU4",
+		id = 20199,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU4"
+		}
+	},
+	[20200] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "好奇心",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU5",
+		id = 20200,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU5"
+		}
+	},
+	[20201] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "アルバム作り",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU6",
+		id = 20201,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU6"
+		}
+	},
+	[20202] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "遊園地への誘い",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU7",
+		id = 20202,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU7"
+		}
+	},
+	[20203] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "倉庫の宝探し",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU8",
+		id = 20203,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU8"
+		}
+	},
+	[20204] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "健康管理",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU9",
+		id = 20204,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU9"
+		}
+	},
+	[20205] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "飾り計画",
+		condition = "「TB育成」-スカベンジャーと会話をする",
+		story = "TANSUOZHEXINZHIXUYU10",
+		id = 20205,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU10"
+		}
+	},
+	[20206] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "輝きの秘訣Ⅰ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI1",
+		id = 20206,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI1"
+		}
+	},
+	[20207] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "花の庭Ⅰ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI2",
+		id = 20207,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI2"
+		}
+	},
+	[20208] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "変えなくてもいい素直さⅠ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI3",
+		id = 20208,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI3"
+		}
+	},
+	[20209] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "エプロンと栄光Ⅰ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI4",
+		id = 20209,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI4"
+		}
+	},
+	[20210] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "拙い想いⅠ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI5",
+		id = 20210,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI5"
+		}
+	},
+	[20211] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "整然とした一日Ⅰ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI6",
+		id = 20211,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI6"
+		}
+	},
+	[20212] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "輝きの秘訣Ⅱ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI7",
+		id = 20212,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI7"
+		}
+	},
+	[20213] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "花の庭Ⅱ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI8",
+		id = 20213,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI8"
+		}
+	},
+	[20214] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "変えなくてもいい素直さⅡ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI9",
+		id = 20214,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI9"
+		}
+	},
+	[20215] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "エプロンと栄光Ⅱ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI10",
+		id = 20215,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI10"
+		}
+	},
+	[20216] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "拙い想いⅡ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI11",
+		id = 20216,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI11"
+		}
+	},
+	[20217] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "整然とした一日Ⅱ",
+		condition = "「TB育成」-スカベンジャーで仲間を訪問する",
+		story = "TANSUOZHELAIFANGJISHI12",
+		id = 20217,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI12"
 		}
 	}
 }

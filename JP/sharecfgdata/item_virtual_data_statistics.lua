@@ -173374,6 +173374,31 @@ _G.pg.base.item_virtual_data_statistics[65556] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65557] = {
+	drop_gold_max = 0,
+	name = "着せ替えクーポン（ドレス）",
+	display = "キャンペーン対象の「ドレス」復刻着せ替え購入時にダイヤ×300分割引できるクーポン\n2026/4/8（水）23:59後削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50500,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65557,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65561] = {
 	drop_gold_max = 0,
 	name = "天狐グループバッジ",
@@ -179607,6 +179632,56 @@ _G.pg.base.item_virtual_data_statistics[66012] = {
 	drop_oil_max = 0,
 	virtual_type = 103,
 	id = 66012,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66013] = {
+	drop_gold_max = 0,
+	name = "友好度-フリードリヒちゃん",
+	display = "イベント「ママの演奏練習」・友好度",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaofeitelie_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66013,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66014] = {
+	drop_gold_max = 0,
+	name = "小腓特烈大帝转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50501,
+	icon = "Props/masaiqu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66014,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -188275,6 +188350,63 @@ _G.pg.base.item_virtual_data_statistics[86225] = {
 			1340
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86226] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = [[
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは均一の確率で出現します;
+サンフアン「ロンギング・プリンセス」；
+ビロクシ「羅府エンプレス」；
+ウィチタ「ジェネラル・バンケット」；
+マサチューセッツ「ドレッシービューティー」；
+エンタープライズ「英雄の儀典礼装」；
+インディペンデンス「ブランディング・I」；
+アルバコア「ミッション・アカンプリス」；
+ダイドー「多感なるBIsqueDoll」；
+シェフィールド「ブラックロウ・アウトフィット」；
+ベルファスト「優雅にして高貴な従者」；
+雷「払暁のイカヅチ」；
+電「夕闇のイナヅマ」；
+阿賀野「蒼き告白モルフォ」；
+能代「夜饗の絶園」；
+赤城「朱絹の余醺」；
+加賀「白羽の貴華」；
+信濃「満ち欠ける朧月」；
+プリンツ・オイゲン「ヴァイン・コーンブルメ」；
+ティルピッツ「鉄血の氷風」；
+リットリオ「カラブリア・アウレア」；
+ジャン・バール「不羈なブラッドストーン」；
+シアトル「ゴージャスパーティー」；
+ラフィー「レイジー·デイタイム」；
+天城(空母)「玉座落鸞」；
+渡良瀬「灰かぶりの奇術衣裳」；
+チェシャー「ハイネス・イン・ホワイト」；
+サウスダコタ「ソロコンサート」；
+オーロラ「黎明に捧げる賛歌」；
+デューク・オブ・ヨーク「永夜のカローラ」；
+ジョージア「サウスタウンパール」；
+]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86226,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 
