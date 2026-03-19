@@ -211,7 +211,7 @@ end
 
 slot0.UpdateSummary = function(slot0)
 	slot0.allEntryCntText.text = #slot0.entries .. "/" .. #underscore.select(slot0.contextData.char:GetPermanentData():GetAllBuffIds(), function (slot0)
-		return uv0.config[slot0].type == NewEducateBuff.TYPE.ENTRY
+		return uv0.config[slot0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(slot0)
 	end)
 	slot2 = slot0.contextData.char:GetBenefitData()
 	slot0.showPctList = {}

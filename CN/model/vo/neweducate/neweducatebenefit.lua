@@ -28,7 +28,7 @@ slot0.GetListByType = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.buffs) do
-		if slot7:getConfig("is_show") == 1 and slot7:getConfig("type") == slot1 then
+		if NewEducateBuff.IsVisible(slot7.id) and slot7:getConfig("type") == slot1 then
 			table.insert(slot2, slot7)
 		end
 	end

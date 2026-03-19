@@ -135,31 +135,31 @@ end
 
 slot0.GetAllTarotIds = function(slot0)
 	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 
 slot0.GetActivatedTarotIds = function(slot0)
 	return underscore.select(slot0.buffIds, function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 
 slot0.GetAllTalentIds = function(slot0)
 	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 
 slot0.GetActivatedTalentIds = function(slot0)
 	return underscore.select(slot0.buffIds, function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 
 slot0.GetAllEntryIds = function(slot0)
 	return underscore.select(slot0:GetAllBuffIds(), function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 
@@ -185,7 +185,7 @@ end
 
 slot0.GetActivatedEntryIds = function(slot0)
 	return underscore.select(slot0.buffIds, function (slot0)
-		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and slot1.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[slot0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(slot0)
 	end)
 end
 

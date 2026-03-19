@@ -201,12 +201,12 @@ slot0.InitCard = function(slot0, slot1, slot2, slot3)
 					return
 				end
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("不在贩卖期间"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
 
 				return
 			end
 
-			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_lock_tip"))
 
 			return
 		end

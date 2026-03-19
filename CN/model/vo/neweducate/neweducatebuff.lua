@@ -77,4 +77,8 @@ slot0.GetDisplayNum = function(slot0, slot1)
 	return slot0.effectNums[slot1] or 0
 end
 
+slot0.IsVisible = function(slot0)
+	return pg.child2_benefit_list[slot0].ignore_on_collection ~= 1 and slot1.is_show ~= 0
+end
+
 return slot0

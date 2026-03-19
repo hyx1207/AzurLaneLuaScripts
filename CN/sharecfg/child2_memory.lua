@@ -306,69 +306,76 @@ pg.child2_memory = {
 		character = 2,
 		id = 219,
 		pic = "bg_project_explorer_cg30",
-		desc = "衣柜大换新"
+		desc = "衣柜大换新I"
 	},
 	[220] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA21",
 		character = 2,
 		id = 220,
 		pic = "bg_project_explorer_cg30",
-		desc = "少女的秘密"
+		desc = "衣柜大换新II"
 	},
 	[221] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA22",
 		character = 2,
 		id = 221,
 		pic = "bg_project_explorer_cg27",
-		desc = "心映琳琅"
+		desc = "少女的秘密"
 	},
 	[222] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA23",
 		character = 2,
 		id = 222,
 		pic = "bg_project_explorer_cg29",
-		desc = "弦上之意"
+		desc = "心映琳琅"
 	},
 	[223] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA24",
 		character = 2,
 		id = 223,
 		pic = "bg_project_explorer_cg28",
-		desc = "甜蜜分享"
+		desc = "弦上之意"
 	},
 	[224] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA25",
 		character = 2,
 		id = 224,
 		pic = "bg_project_explorer_cg24",
-		desc = "定格的春天"
+		desc = "甜蜜分享"
 	},
 	[225] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA26",
 		character = 2,
 		id = 225,
 		pic = "bg_project_explorer_cg25",
-		desc = "占卜初体验"
+		desc = "定格的春天"
 	},
 	[226] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA27",
 		character = 2,
 		id = 226,
 		pic = "bg_project_explorer_cg26",
-		desc = "伴你同行"
+		desc = "占卜初体验"
 	},
 	[227] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA28",
 		character = 2,
 		id = 227,
 		pic = "bg_project_explorer_cg31",
-		desc = "新的起点"
+		desc = "伴你同行I"
 	},
 	[228] = {
 		lua = "TANSUOZHEYANGCHENGJIHUA29",
 		character = 2,
 		id = 228,
 		pic = "bg_project_explorer_cg31",
+		desc = "伴你同行II"
+	},
+	[229] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA30",
+		character = 2,
+		id = 229,
+		pic = "bg_project_explorer_cg32",
 		desc = "新的起点"
 	},
 	get_id_list_by_character = {
@@ -427,7 +434,8 @@ pg.child2_memory = {
 			225,
 			226,
 			227,
-			228
+			228,
+			229
 		}
 	},
 	all = {
@@ -483,6 +491,7 @@ pg.child2_memory = {
 		225,
 		226,
 		227,
-		228
+		228,
+		229
 	}
 }
