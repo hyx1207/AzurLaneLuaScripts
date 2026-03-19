@@ -23507,7 +23507,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "When the turn starts, if Mood is less than 70, +20 Mood; if Mood is 70 or above, instead increase all stats by +25.",
+		desc = "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 0,
@@ -23715,7 +23715,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3016] = {
 		benefit_level = 0,
-		name = "Roon's Blessing ",
+		name = "Roon's Blessing",
 		is_show = 0,
 		is_tip = 0,
 		type = 2,
@@ -23744,7 +23744,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3017] = {
 		benefit_level = 0,
-		name = "Roon's Blessing ",
+		name = "Roon's Blessing",
 		is_show = 0,
 		is_tip = 0,
 		type = 2,
@@ -23773,7 +23773,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3018] = {
 		benefit_level = 0,
-		name = "Roon's Blessing ",
+		name = "Roon's Blessing",
 		is_show = 1,
 		is_tip = 0,
 		type = 2,
@@ -24923,7 +24923,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "Knowledge activities consume -50% Mood.",
+		desc = "Dexterity activities consume -50% Mood.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -25014,7 +25014,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "When shopping at the Shop, Funds spent -60%.",
+		desc = "Sensitivity activities consume -50% Mood.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -25105,7 +25105,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
+		desc = "Fitness activities consume -50% Mood.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -25196,7 +25196,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "Dexterity activities consume -50% Mood.",
+		desc = "Knowledge activities consume -50% Mood.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -25287,7 +25287,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "Sensitivity activities consume -50% Mood.",
+		desc = "When shopping at the Fortune Teller, Funds spent -10%.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -25374,7 +25374,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 2,
 		debuff_tag = 0,
-		desc = "Fitness activities consume -50% Mood.",
+		desc = "At turn start, if Mood is <70, Mood +20. If Mood is 70 or higher, +25 (fixed) to all stats.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 27,
@@ -26093,7 +26093,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3810782] = {
 		benefit_level = 1,
-		name = "The High Priestess – IV",
+		name = "The High Priestess - IV",
 		is_show = 1,
 		is_tip = 0,
 		type = 4,
@@ -26395,7 +26395,7 @@ pg.base.child2_benefit_list = {
 		simple_desc = "For 1 turn, greatly increase amount of Fitness gained.",
 		item_icon = "buff_entry_5",
 		count_desc = "",
-		get = "For 1 turn, greatly increase amount of Knowledge gained.",
+		get = "Obtainable from Fortune Teller",
 		ignore_on_collection = 1,
 		level_tag = 16,
 		next_level = 0,
@@ -26412,12 +26412,12 @@ pg.base.child2_benefit_list = {
 	},
 	[3810663] = {
 		benefit_level = 1,
-		name = "For 1 turn, greatly increase amount of Dexterity gained.",
+		name = "The Hierophant - IV",
 		is_show = 1,
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "For 1 turn, greatly increase amount of Sensitivity gained.",
+		desc = "For 1 turn, amount of Knowledge gained +150%.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 6,
@@ -26567,7 +26567,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3810581] = {
 		benefit_level = 1,
-		name = "Tarot – Strength",
+		name = "Tarot - Strength",
 		is_show = 1,
 		is_tip = 0,
 		type = 3,
@@ -26976,7 +26976,7 @@ pg.base.child2_benefit_list = {
 		simple_desc = "",
 		item_icon = "buff_entry_17",
 		count_desc = "",
-		get = "Obtainable from Fortune Teller ",
+		get = "Obtainable from Fortune Teller",
 		ignore_on_collection = 1,
 		level_tag = 35,
 		next_level = 0,
@@ -27283,7 +27283,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3810441] = {
 		benefit_level = 1,
-		name = "Tarot – Justice",
+		name = "Tarot - Justice",
 		is_show = 1,
 		is_tip = 0,
 		type = 3,
@@ -27343,7 +27343,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3811081] = {
 		benefit_level = 1,
-		name = "Tarot – Death",
+		name = "Tarot - Death",
 		is_show = 1,
 		is_tip = 0,
 		type = 3,
@@ -27401,7 +27401,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3810011] = {
 		benefit_level = 1,
-		name = "Tarot – Temperance",
+		name = "Tarot - Temperance",
 		is_show = 1,
 		is_tip = 0,
 		type = 3,
@@ -27839,7 +27839,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810061,
-		upgrade_desc = "At turn start, if Mood is >60, +10% to amount of Funds gained.",
+		upgrade_desc = "At turn start, if Mood is >60, +20% to amount of Funds gained.",
 		content = {
 			38100611
 		},
@@ -27897,7 +27897,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810081,
-		upgrade_desc = "When leveling up a Reading, 30% chance to gain +120 Funds.",
+		upgrade_desc = "When leveling up a Reading, 30% chance to gain +250 Funds.",
 		content = {
 			38100811
 		},
@@ -27945,7 +27945,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 20,
-		simple_desc = "Every 2 turns, gain a <color=#ff9829>random Reading</color>.",
+		simple_desc = "Every 2 turns, gain a random Reading.",
 		item_icon = "buff_entry_19",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller ",
@@ -27974,7 +27974,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 20,
-		simple_desc = "When possessing a large number of Readings, gain a <color=#ff9829>random Reading</color> every 2 turns.",
+		simple_desc = "When possessing a large number of Readings, gain a random Reading every 2 turns.",
 		item_icon = "buff_entry_19",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller ",
@@ -28090,7 +28090,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 18,
-		simple_desc = "At certain locations, <color=#ff9829>new random events</color> may occur.",
+		simple_desc = "At certain locations, new random events may occur.",
 		item_icon = "buff_entry_17",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -28119,7 +28119,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 18,
-		simple_desc = "At certain locations, <color=#ff9829>new random events</color> may occur.",
+		simple_desc = "At certain locations, new random events may occur.",
 		item_icon = "buff_entry_17",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -28481,7 +28481,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Gain 1 Reading of The Tower - XI (every turn, +50 to all stats. When performing any activity, -2% to all stats). For every Ability possessed, +50 to all stats every turn.",
+		desc = "Gain 1 Reading of The Tower - XI (every turn, +50 to all stats. When performing any activity, -2% to all stats). For every Ability possessed, +20 to all stats every turn.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 17,
@@ -28569,7 +28569,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "For every Reading of The Devil possessed, all stats decrease by 0.5% at turn end and you gain Funds equal to 20% of the amount lost.",
+		desc = "For every Reading of The Devil possessed, -0.5% to all stats at turn end and you gain Funds equal to 20% of the amount lost.",
 		item_icon_little = "",
 		rare = 1,
 		tarot_tag = 16,
@@ -28630,7 +28630,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810281,
-		upgrade_desc = "When obtained, Funds +500. -15% to amount of Funds gained permanently.",
+		upgrade_desc = "When obtained, Funds +500.",
 		content = {
 			38102811,
 			38102821
@@ -28660,7 +28660,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810291,
-		upgrade_desc = "When obtained, +100 to all stats. When Personality changes, there's a chance to gain or lose 20 Funds.",
+		upgrade_desc = "When obtained, +100 to all stats. When Personality changes, there's a 50 % chance to gain or lose 20 Funds.",
 		content = {
 			38102911,
 			38102912,
@@ -28693,7 +28693,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810301,
-		upgrade_desc = "When obtained, Funds +500. When Going Outside, 20% chance to gain or lose 20 Funds.",
+		upgrade_desc = "When obtained, Funds +500. When Going Outside, 10% chance to gain or lose 20 Funds.",
 		content = {
 			38103011,
 			38103012
@@ -28724,7 +28724,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810311,
-		upgrade_desc = "When obtained, Fitness +500. When gaining Affection, -10 Fitness at a 50% chance.",
+		upgrade_desc = "When obtained, Fitness +500. When gaining Affection, -10 Fitness at a 20% chance.",
 		content = {
 			38103111,
 			38103112
@@ -28755,7 +28755,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810331,
-		upgrade_desc = "Every time 100 Funds are spent, +20 Funds at a 50% chance.",
+		upgrade_desc = "Every time 100 Funds are spent, +30 Funds at a 50% chance.",
 		content = {
 			38103311
 		},
@@ -28784,7 +28784,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810341,
-		upgrade_desc = "At turn start, for every 100 Funds possessed, +5 Funds.",
+		upgrade_desc = "At turn start, for every 100 Funds possessed, +10 Funds.",
 		content = {
 			38103411
 		},
@@ -28813,7 +28813,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810351,
-		upgrade_desc = "When spending AP, +40 Funds.",
+		upgrade_desc = "When spending AP, +80 Funds.",
 		content = {
 			38103511
 		},
@@ -28842,7 +28842,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810361,
-		upgrade_desc = "+50% to amount of Funds gained. At turn end, lose 20% of Funds possessed.",
+		upgrade_desc = "+50% to amount of Funds gained.",
 		content = {
 			38103611,
 			38103612
@@ -28873,7 +28873,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810371,
-		upgrade_desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		upgrade_desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		content = {
 			38103711,
 			38150511,
@@ -29365,7 +29365,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810391,
-		upgrade_desc = "At turn end, Funds +50.",
+		upgrade_desc = "At turn end, Funds +80.",
 		content = {
 			38103911
 		},
@@ -29394,7 +29394,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810401,
-		upgrade_desc = "At turn end, gain Funds equal to 5% of Funds possessed.",
+		upgrade_desc = "At turn end, gain Funds equal to 10% of Funds possessed.",
 		content = {
 			38104011
 		},
@@ -29423,7 +29423,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810411,
-		upgrade_desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		upgrade_desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		content = {
 			38104111
 		},
@@ -29452,7 +29452,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810421,
-		upgrade_desc = "+40% to amount of funds gained.",
+		upgrade_desc = "+60% to amount of funds gained.",
 		content = {
 			38104211
 		},
@@ -29481,7 +29481,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810431,
-		upgrade_desc = "Every time 1,000 Funds are spent, +10% to amount of Funds gained permanently.",
+		upgrade_desc = "Every time 1,000 Funds are spent, +15% to amount of Funds gained permanently.",
 		content = {
 			38104311,
 			38150811,
@@ -29818,7 +29818,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810451,
-		upgrade_desc = "Every 2 turns, gain Sensitivity equal to 6% of Knowledge stat.",
+		upgrade_desc = "Every 2 turns, gain Sensitivity equal to 10% of Knowledge stat.",
 		content = {
 			38104511
 		},
@@ -29847,7 +29847,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810461,
-		upgrade_desc = "Every 2 turns, gain Fitness equal to 6% of Dexterity stat.",
+		upgrade_desc = "Every 2 turns, gain Fitness equal to 10% of Dexterity stat.",
 		content = {
 			38104611
 		},
@@ -29876,7 +29876,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810471,
-		upgrade_desc = "Every 2 turns, gain Funds equal to 100% of Mood value.",
+		upgrade_desc = "Every 2 turns, gain Funds equal to 200% of Mood value.",
 		content = {
 			38104711
 		},
@@ -29992,7 +29992,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810521,
-		upgrade_desc = "When possessing a \"The World\" Tarot Card, +55% to amount of Funds gained.",
+		upgrade_desc = "When possessing a \"The World\" Tarot Card, +80% to amount of Funds gained.",
 		content = {
 			38105211
 		},
@@ -30021,7 +30021,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810531,
-		upgrade_desc = "When possessing a \"The World\" Tarot Card, +10% to amount of all stats gained.",
+		upgrade_desc = "When possessing a \"The World\"  Tarot Card, +20% to amount of all stats gained.",
 		content = {
 			38105311
 		},
@@ -30050,7 +30050,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810551,
-		upgrade_desc = "+20% to amount of all resources gained. Every turn, -30 to all stats.",
+		upgrade_desc = "+20% to amount of all resources gained. Every turn, -10 to all stats.",
 		content = {
 			38105511,
 			38105512
@@ -30081,7 +30081,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810561,
-		upgrade_desc = "+10% to amount of all stats gained. Every turn, -60 Funds.",
+		upgrade_desc = "+10% to amount of all stats gained. Every turn, -30 Funds.",
 		content = {
 			38105611,
 			38105612
@@ -30112,7 +30112,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810571,
-		upgrade_desc = "For every two-sided Reading (having both positive and negative effects) possessed, +3% to amount of all stats and resources gained.",
+		upgrade_desc = "For every two-sided Reading (having both positive and negative effects) possessed, +5% to amount of all stats and resources gained.",
 		content = {
 			38105711
 		},
@@ -30141,7 +30141,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810591,
-		upgrade_desc = "For every Reading of Strength possessed, +2% to amount of all stats gained.",
+		upgrade_desc = "For every Reading of Strength possessed, +4% to amount of all stats gained.",
 		content = {
 			38105911
 		},
@@ -30170,7 +30170,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810601,
-		upgrade_desc = "+5% to amount of all stats gained.",
+		upgrade_desc = "+10% to amount of all stats gained.",
 		content = {
 			38106011
 		},
@@ -30199,7 +30199,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810611,
-		upgrade_desc = "At turn start, +5% to a random stat.",
+		upgrade_desc = "At turn start, +10% to a random stat.",
 		content = {
 			38106111
 		},
@@ -30325,7 +30325,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3810631] = {
 		benefit_level = 1,
-		name = "The Magician – I",
+		name = "The Magician - I",
 		is_show = 1,
 		is_tip = 0,
 		type = 4,
@@ -30373,7 +30373,7 @@ pg.base.child2_benefit_list = {
 		during_time = 20,
 		character = 2,
 		id = 3810641,
-		upgrade_desc = "For 20 turns, every turn, 30% chance to gain 1 random Reading.",
+		upgrade_desc = "Every turn, 30% chance to gain 1 random Reading.",
 		content = {
 			38106411
 		},
@@ -30402,7 +30402,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810651,
-		upgrade_desc = "At turn end, additionally activate 1 random The Magician Tarot Card effect.",
+		upgrade_desc = "At turn end, additionally activate 2 random The Magician Tarot Card effects.",
 		content = {
 			38106511
 		},
@@ -30431,7 +30431,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810671,
-		upgrade_desc = "When performing Sightseeing, Funds +100. When performing Experiences, Mood +10.",
+		upgrade_desc = "When performing Sightseeing, Funds +150. When performing Experiences, Mood +15.",
 		content = {
 			38106711,
 			38106712
@@ -30462,7 +30462,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810681,
-		upgrade_desc = "When obtained, Funds +100. +5% to amount of Funds gained and +10% to amount of Fitness and Knowledge gained permanently.",
+		upgrade_desc = "+10% to amount of Funds gained and +20% to amount of Fitness and Knowledge gained permanently.",
 		content = {
 			38106811,
 			38106812
@@ -30493,7 +30493,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810691,
-		upgrade_desc = "When obtained, Mood +100. +10% to amount of Mood, Sensitivity, and Dexterity gained permanently.",
+		upgrade_desc = "+20% to amount of Mood, Sensitivity, and Dexterity gained permanently.",
 		content = {
 			38106911,
 			38106912
@@ -30524,7 +30524,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810711,
-		upgrade_desc = "When gaining AP, 20% chance to gain an additional 1 AP.",
+		upgrade_desc = "When gaining AP, 30% chance to gain an additional 1 AP.",
 		content = {
 			38107111
 		},
@@ -30553,7 +30553,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810721,
-		upgrade_desc = "When shopping at the Fortune Teller, 10% chance to gain 1 AP.",
+		upgrade_desc = "When shopping at the Fortune Teller, 15% chance to gain 1 AP.",
 		content = {
 			38107211
 		},
@@ -30582,7 +30582,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810731,
-		upgrade_desc = "When spending AP, 10% chance to gain 1 AP.",
+		upgrade_desc = "When spending AP, 15% chance to gain 1 AP.",
 		content = {
 			38107311
 		},
@@ -30611,7 +30611,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810751,
-		upgrade_desc = "At turn end, if there is 1 AP remaining, +25 to all stats.",
+		upgrade_desc = "At turn end, if there is 1 AP remaining, +50 to all stats.",
 		content = {
 			38107511
 		},
@@ -30640,7 +30640,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810761,
-		upgrade_desc = "When performing Sightseeing, 10% chance to gain 1 AP.",
+		upgrade_desc = "When performing Sightseeing, 15% chance to gain 1 AP.",
 		content = {
 			38107611
 		},
@@ -30669,7 +30669,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810771,
-		upgrade_desc = "When performing Experiences, 10% chance to gain 1 AP.",
+		upgrade_desc = "When performing Experiences, 15% chance to gain 1 AP.",
 		content = {
 			38107711
 		},
@@ -30698,7 +30698,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810791,
-		upgrade_desc = "When spending 250 or more Funds in a turn, Personality changes in a random direction by 5 points at turn end.",
+		upgrade_desc = "When spending 150 or more Funds in a turn, Personality changes in a random direction by 5 points at turn end.",
 		content = {
 			38107911
 		},
@@ -30727,7 +30727,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810801,
-		upgrade_desc = "At turn start, if Mood is 100, 40% chance to gain 1 AP.",
+		upgrade_desc = "At turn start, if Mood is 100, 60% chance to gain 1 AP.",
 		content = {
 			38108011
 		},
@@ -30756,7 +30756,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810811,
-		upgrade_desc = "At turn start, if Mood is 100, 50% chance to gain 50 Funds.",
+		upgrade_desc = "At turn start, if Mood is 100, 50% chance to gain 80 Funds.",
 		content = {
 			38108111
 		},
@@ -30785,7 +30785,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810831,
-		upgrade_desc = "When Experience and Sightseeing are performed on the same turn, +10% to amount of all stats gained for that turn.",
+		upgrade_desc = "When Experience and Sightseeing are performed on the same turn, +20% to amount of all stats gained for that turn.",
 		content = {
 			38108311
 		},
@@ -30814,7 +30814,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810841,
-		upgrade_desc = "If an even number of AP are spent during a turn, +80 Funds at turn end.",
+		upgrade_desc = "If an even number of AP are spent during a turn, +160 Funds at turn end.",
 		content = {
 			38108411,
 			38108412,
@@ -30853,7 +30853,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810851,
-		upgrade_desc = "When performing Experiences, +8 Mood.",
+		upgrade_desc = "When performing Experiences, +16 Mood.",
 		content = {
 			38108511
 		},
@@ -30882,7 +30882,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810871,
-		upgrade_desc = "When Personality is Outgoing, +10% to amount of resources gained.",
+		upgrade_desc = "When Personality is Outgoing, +15% to amount of resources gained.",
 		content = {
 			38108711
 		},
@@ -30911,7 +30911,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810881,
-		upgrade_desc = "When Personality is Shy, cost of goods at the Fortune Teller -10%.",
+		upgrade_desc = "When Personality is Shy, cost of goods at the Fortune Teller -20%.",
 		content = {
 			38108811
 		},
@@ -30940,7 +30940,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810891,
-		upgrade_desc = "When gaining Personality value, +20 to all stats.",
+		upgrade_desc = "When gaining Personality value, +40 to all stats.",
 		content = {
 			38108911,
 			38108912
@@ -30956,7 +30956,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When gaining Shy Personality during a turn, +50% to amount of Knowledge and Sensitivity gained next turn.",
+		desc = "When gaining Shy Personality value during a turn, +50% to amount of Knowledge and Sensitivity gained next turn.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 19,
@@ -30970,7 +30970,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810901,
-		upgrade_desc = "When gaining Shy Personality during a turn, +50% to amount of Knowledge and Sensitivity gained next turn.",
+		upgrade_desc = "When gaining Shy Personality value during a turn, +100% to amount of Knowledge and Sensitivity gained next turn.",
 		content = {
 			38109011,
 			38109141
@@ -30987,7 +30987,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When gaining Outgoing Personality during a turn, +50% to amount of Dexterity and Fitness gained next turn.",
+		desc = "When gaining Outgoing Personality value during a turn, +50% to amount of Dexterity and Fitness gained next turn.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 19,
@@ -31001,7 +31001,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810911,
-		upgrade_desc = "When gaining Outgoing Personality during a turn, +50% to amount of Dexterity and Fitness gained next turn.",
+		upgrade_desc = "When gaining Outgoing Personality value during a turn, +100% to amount of Dexterity and Fitness gained next turn.",
 		content = {
 			38109111,
 			38109151
@@ -31140,7 +31140,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810931,
-		upgrade_desc = "Before Assessment starts, 30% chance of gaining Fitness equal to 50 times the number of The Chariot Readings possessed.",
+		upgrade_desc = "Before Assessment starts, gain Fitness equal to 50 times the number of The Chariot Readings possessed.",
 		content = {
 			38109311
 		},
@@ -31169,7 +31169,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810941,
-		upgrade_desc = "When gaining Fitness, 20% chance of increasing that gain by +100%.",
+		upgrade_desc = "When gaining Fitness, 40% chance of increasing that gain by +100%.",
 		content = {
 			38109411
 		},
@@ -31198,7 +31198,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810951,
-		upgrade_desc = "Lose 50% of current Knowledge and gain Fitness equal to 150% of the lost amount.",
+		upgrade_desc = "Lose 50% of current Knowledge and gain Fitness equal to 200% of the lost amount.",
 		content = {
 			38109511,
 			38109512
@@ -31229,7 +31229,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810961,
-		upgrade_desc = "Every 5 turns, increase Fitness by 25% of Dexterity.",
+		upgrade_desc = "Every 3 turns, increase Fitness by 25% of Dexterity.",
 		content = {
 			38109611
 		},
@@ -31258,7 +31258,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810971,
-		upgrade_desc = "When obtained, +150 Fitness. +20% to amount of Fitness gained permanently.",
+		upgrade_desc = "+50% to amount of Fitness gained.",
 		content = {
 			38109711,
 			38109721
@@ -31289,7 +31289,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3810991,
-		upgrade_desc = "After Assessment, randomly increase Fitness by 5 to 10% of current Fitness.",
+		upgrade_desc = "After Assessment, randomly increase Fitness by 10 to 20% of current Fitness.",
 		content = {
 			38109911
 		},
@@ -31318,7 +31318,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811001,
-		upgrade_desc = "After Assessment, randomly increase Dexterity by 5 to 10% of current Dexterity.",
+		upgrade_desc = "After Assessment, randomly increase Dexterity by 10 to 20% of current Dexterity.",
 		content = {
 			38110011
 		},
@@ -31347,7 +31347,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811011,
-		upgrade_desc = "After Assessment, randomly increase Sensitivity by 5 to 10% of current Sensitivity.",
+		upgrade_desc = "After Assessment, randomly increase Sensitivity by 10 to 20% of current Sensitivity.",
 		content = {
 			38110111
 		},
@@ -31376,7 +31376,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811021,
-		upgrade_desc = "After Assessment, randomly increase Knowledge by 5 to 10% of current Knowledge.",
+		upgrade_desc = "After Assessment, randomly increase Knowledge by 10 to 20% of current Knowledge.",
 		content = {
 			38110211
 		},
@@ -31405,7 +31405,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811031,
-		upgrade_desc = "After Assessment, increase all stats by 5% of current stats.",
+		upgrade_desc = "After Assessment, increase all stats by 10% of current stats.",
 		content = {
 			38110311
 		},
@@ -31434,7 +31434,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811051,
-		upgrade_desc = "At turn start, if Mood is >90, -10% to the cost of goods at the Fortune Teller for that turn.",
+		upgrade_desc = "At turn start, if Mood is >50, -10% to the cost of goods at the Fortune Teller for that turn.",
 		content = {
 			38110511
 		},
@@ -31463,7 +31463,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811061,
-		upgrade_desc = "When shopping at the Fortune Teller, 5% chance to gain 1 Fortune Teller refresh.",
+		upgrade_desc = "When shopping at the Fortune Teller, 10% chance to gain 1 Fortune Teller refresh.",
 		content = {
 			38110611
 		},
@@ -31492,7 +31492,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811071,
-		upgrade_desc = "When shopping at the Fortune Teller, 30% chance to gain 1 Tarot Card/Reading redraw.",
+		upgrade_desc = "When shopping at the Fortune Teller, 50% chance to gain 1 Tarot Card/Reading redraw.",
 		content = {
 			38110711
 		},
@@ -31507,7 +31507,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When possessing over 13 Death Readings, 50% to amount of all stats gained.",
+		desc = "When possessing more than 13 Death Readings, 50% to amount of all stats gained.",
 		item_icon_little = "",
 		rare = 1,
 		tarot_tag = 14,
@@ -31521,7 +31521,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811091,
-		upgrade_desc = "When possessing over 13 Death Readings, 50% to amount of all stats gained.",
+		upgrade_desc = "When possessing more than 13 Death Readings, 100% to amount of all stats gained.",
 		content = {
 			38110911
 		},
@@ -31550,7 +31550,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811101,
-		upgrade_desc = "After possessing a Death Tarot Card for a total of 13 turns, +65% to amount of all stats gained.",
+		upgrade_desc = "After possessing a Death Tarot Card for a total of 13 turns, +130% to amount of all stats gained.",
 		content = {
 			38111011
 		},
@@ -31608,7 +31608,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811111,
-		upgrade_desc = "Every time 13 AP are spent, +13% to amount of all stats gained permanently.",
+		upgrade_desc = "Every time 13 AP are spent, +26% to amount of all stats gained permanently.",
 		content = {
 			38111111
 		},
@@ -31637,7 +31637,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811121,
-		upgrade_desc = "At turn start, +30 to a random stat.",
+		upgrade_desc = "At turn start, +60 to a random stat.",
 		content = {
 			38111211
 		},
@@ -31666,7 +31666,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811131,
-		upgrade_desc = "At turn end, +30 to a random stat.",
+		upgrade_desc = "At turn end, +60 to a random stat.",
 		content = {
 			38111311
 		},
@@ -31695,7 +31695,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811141,
-		upgrade_desc = "When shopping at the Fortune Teller, +20 to a random stat.",
+		upgrade_desc = "When shopping at the Fortune Teller, +40 to a random stat.",
 		content = {
 			38111411
 		},
@@ -31724,7 +31724,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811151,
-		upgrade_desc = "When performing Experiences, +30 to a random stat.",
+		upgrade_desc = "When performing Experiences, +60 to a random stat.",
 		content = {
 			38111511
 		},
@@ -31753,7 +31753,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811161,
-		upgrade_desc = "When taking part in a random event, +30 to a random stat.",
+		upgrade_desc = "When taking part in a random event, +60 to a random stat.",
 		content = {
 			38111611
 		},
@@ -31782,7 +31782,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811171,
-		upgrade_desc = "Before Assessment starts, +150 to a random stat.",
+		upgrade_desc = "Before Assessment starts, +300 to a random stat.",
 		content = {
 			38111711
 		},
@@ -31801,7 +31801,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 7,
 		tarot_tag = 23,
-		simple_desc = "After Assessments ends, increase a random stat.",
+		simple_desc = "After Assessment ends, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -31811,7 +31811,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811181,
-		upgrade_desc = "After Assessment ends, +150 to a random stat.",
+		upgrade_desc = "After Assessment ends, +300 to a random stat.",
 		content = {
 			38111811
 		},
@@ -31840,7 +31840,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811191,
-		upgrade_desc = "When performing Sightseeing, +30 to a random stat.",
+		upgrade_desc = "When performing Sightseeing, +60 to a random stat.",
 		content = {
 			38111911
 		},
@@ -31869,7 +31869,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811201,
-		upgrade_desc = "When leveling up a Reading, +100 to a random stat.",
+		upgrade_desc = "When leveling up a Reading, +200 to a random stat.",
 		content = {
 			38112011
 		},
@@ -31898,7 +31898,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811211,
-		upgrade_desc = "Every turn, gain +10 to a random stat for each Swords Reading possessed.",
+		upgrade_desc = "Every turn, gain +20 to a random stat for each Swords Reading possessed.",
 		content = {
 			38112111
 		},
@@ -31927,7 +31927,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811221,
-		upgrade_desc = "When gaining AP, 25% chance of gaining +10 Mood.",
+		upgrade_desc = "When gaining AP, 50% chance of gaining +10 Mood.",
 		content = {
 			38112211
 		},
@@ -31956,7 +31956,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811231,
-		upgrade_desc = "When gaining AP, 15% chance of gaining +1 AP.",
+		upgrade_desc = "When gaining AP, 20% chance of gaining +1 AP.",
 		content = {
 			38112311
 		},
@@ -31985,7 +31985,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811241,
-		upgrade_desc = "When performing Sightseeing, 10% chance of gaining +1 AP.",
+		upgrade_desc = "When performing Sightseeing, 15% chance of gaining +1 AP.",
 		content = {
 			38112411
 		},
@@ -32014,7 +32014,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811251,
-		upgrade_desc = "When performing Experiences, 10% chance of gaining +1 AP.",
+		upgrade_desc = "When performing Experiences, 15% chance of gaining +1 AP.",
 		content = {
 			38112511
 		},
@@ -32043,7 +32043,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811261,
-		upgrade_desc = "When a visiting event occurs, 20% chance of gaining +1 AP.",
+		upgrade_desc = "When a visiting event occurs, 30% chance of gaining +1 AP.",
 		content = {
 			38112611
 		},
@@ -32072,7 +32072,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811271,
-		upgrade_desc = "When spending AP, Funds +20.",
+		upgrade_desc = "When spending AP, Funds +30.",
 		content = {
 			38112711
 		},
@@ -32101,7 +32101,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811281,
-		upgrade_desc = "When 4 or more AP are used in a turn, gain 2 redraws at turn end.",
+		upgrade_desc = "When 4 or more AP are used in a turn, gain 3 redraws at turn end.",
 		content = {
 			38112811
 		},
@@ -32130,7 +32130,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811291,
-		upgrade_desc = "When spending AP, Mood +3.",
+		upgrade_desc = "When spending AP, Mood +5.",
 		content = {
 			38112911
 		},
@@ -32159,7 +32159,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811301,
-		upgrade_desc = "When spending AP, 10% chance of gaining 1 AP.",
+		upgrade_desc = "When spending AP, 15% chance of gaining 1 AP.",
 		content = {
 			38113011
 		},
@@ -32188,7 +32188,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811311,
-		upgrade_desc = "Every turn, gain +10 to a random stat for each Wands Reading possessed.",
+		upgrade_desc = "Every turn, gain +20 to a random stat for each Wands Reading possessed.",
 		content = {
 			38113111
 		},
@@ -32217,7 +32217,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811321,
-		upgrade_desc = "When Personality is Shy, gain +12 Mood every turn.",
+		upgrade_desc = "When Personality is Shy, gain +20 Mood every turn.",
 		content = {
 			38113211
 		},
@@ -32246,7 +32246,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811331,
-		upgrade_desc = "When Personality is Outgoing, gain +50 Funds every turn.",
+		upgrade_desc = "When Personality is Outgoing, gain +80 Funds every turn.",
 		content = {
 			38113311
 		},
@@ -32275,7 +32275,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811341,
-		upgrade_desc = "When gaining Personality value, +2 Funds per value gained.",
+		upgrade_desc = "When gaining Personality value, +3 Funds per value gained.",
 		content = {
 			38113411,
 			38113421
@@ -32306,7 +32306,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811351,
-		upgrade_desc = "Every turn, Mood +10.",
+		upgrade_desc = "Every turn, Mood +15.",
 		content = {
 			38113511
 		},
@@ -32321,11 +32321,11 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Randomly gain between 1 to 10 Personality Outgoing value every turn.",
+		desc = "Randomly gain between 1 to 10 Outgoing Personality value every turn.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 25,
-		simple_desc = "Randomly gain Outgoing value.",
+		simple_desc = "Randomly gain Outgoing Personality value.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32335,7 +32335,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811361,
-		upgrade_desc = "Randomly gain between 1 to 10 Personality Outgoing value every turn.",
+		upgrade_desc = "Randomly gain between 5 to 10 Outgoing Personality value every turn.",
 		content = {
 			38113611
 		},
@@ -32350,11 +32350,11 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Randomly gain between 1 to 10 Personality Shy value every turn.",
+		desc = "Randomly gain between 1 to 10 Shy Personality value every turn.",
 		item_icon_little = "",
 		rare = 6,
 		tarot_tag = 25,
-		simple_desc = "Randomly gain Shy value.",
+		simple_desc = "Randomly gain Shy Personality value.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32364,7 +32364,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811371,
-		upgrade_desc = "Randomly gain between 1 to 10 Personality Shy value every turn.",
+		upgrade_desc = "Randomly gain between 5 to 10 Shy Personality value every turn.",
 		content = {
 			38113711
 		},
@@ -32393,7 +32393,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811381,
-		upgrade_desc = "When Personality is relatively Outgoing or Shy (i.e. either Personality value is 50 or higher), gain +50 Funds every turn.",
+		upgrade_desc = "When Personality is relatively Outgoing or Shy (i.e. either Personality value is 50 or higher), gain +80 Funds every turn.",
 		content = {
 			38113811
 		},
@@ -32412,7 +32412,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 8,
 		tarot_tag = 25,
-		simple_desc = "When gaining personality value, there is a chance to gain Funds.",
+		simple_desc = "When gaining Personality value, there is a chance to gain Funds.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32422,7 +32422,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811391,
-		upgrade_desc = "When gaining Personality value, 25% chance to gain +20 Funds.",
+		upgrade_desc = "When gaining Personality value, 25% chance to gain +30 Funds.",
 		content = {
 			38113911,
 			38113921
@@ -32443,7 +32443,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 9,
 		tarot_tag = 25,
-		simple_desc = "When gaining personality value, there is a chance to gain Mood.",
+		simple_desc = "When gaining Personality value, there is a chance to gain Mood.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32453,7 +32453,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811401,
-		upgrade_desc = "When gaining Personality value, 25% chance to gain +30 Mood.",
+		upgrade_desc = "When gaining Personality value, 25% chance to gain +50 Mood.",
 		content = {
 			38114011,
 			38114021
@@ -32484,7 +32484,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811411,
-		upgrade_desc = "Every turn, gain +10 to a random stat for each Cups Reading possessed.",
+		upgrade_desc = "Every turn, gain +20 to a random stat for each Cups Reading possessed.",
 		content = {
 			38114111
 		},
@@ -32513,7 +32513,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811421,
-		upgrade_desc = "When shopping at the Fortune Teller, 50% chance to gain +3 Mood.",
+		upgrade_desc = "When shopping at the Fortune Teller, 50% chance to gain +5 Mood.",
 		content = {
 			38114211
 		},
@@ -32542,7 +32542,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811431,
-		upgrade_desc = "Gain 1 Fortune Teller refresh every 3 turns.",
+		upgrade_desc = "Gain 1 Fortune Teller refresh every 2 turns.",
 		content = {
 			38114311
 		},
@@ -32590,7 +32590,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 26,
-		simple_desc = "When shopping at the Fortune Teller, there is a low chance to gain a high amount of Funds.",
+		simple_desc = "When shopping at the Fortune Teller, there is a slight chance to gain a high amount of Funds.",
 		item_icon = "buff_entry_25",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32600,7 +32600,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811451,
-		upgrade_desc = "When shopping at the Fortune Teller, 1% chance of gaining +999 Funds.",
+		upgrade_desc = "When shopping at the Fortune Teller, 1.5% chance of gaining +999 Funds.",
 		content = {
 			38114511
 		},
@@ -32629,7 +32629,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811461,
-		upgrade_desc = "When over 300 Funds are spent in a turn, Mood +8 at turn end.",
+		upgrade_desc = "When over 300 Funds are spent in a turn, Mood +16 at turn end.",
 		content = {
 			38114611
 		},
@@ -32644,11 +32644,11 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Gain 1 redraw every 2 turns.",
+		desc = "Gain 1 Tarot Card/Reading redraw every 2 turns.",
 		item_icon_little = "",
 		rare = 6,
 		tarot_tag = 26,
-		simple_desc = "Every 2 turns, gain 1 Tarot Card/Reading redraw.",
+		simple_desc = "Every 2 turns, gain 1 redraw.",
 		item_icon = "buff_entry_25",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -32658,7 +32658,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811471,
-		upgrade_desc = "Gain 1 redraw every 2 turns.",
+		upgrade_desc = "Gain 1 Tarot Card/Reading redraw every turn.",
 		content = {
 			38114711
 		},
@@ -32687,7 +32687,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811481,
-		upgrade_desc = "When shopping at the Fortune Teller, Mood +1.",
+		upgrade_desc = "When shopping at the Fortune Teller, Mood +2.",
 		content = {
 			38114811
 		},
@@ -32716,7 +32716,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811491,
-		upgrade_desc = "When shopping at the Fortune Teller, 50% chance of gaining +10 Funds.",
+		upgrade_desc = "When shopping at the Fortune Teller, 50% chance of gaining +15 Funds.",
 		content = {
 			38114911
 		},
@@ -32745,7 +32745,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811501,
-		upgrade_desc = "When shopping at the Fortune Teller, Funds +5.",
+		upgrade_desc = "When shopping at the Fortune Teller, Funds +7.",
 		content = {
 			38115011
 		},
@@ -32774,7 +32774,7 @@ pg.base.child2_benefit_list = {
 		during_time = -1,
 		character = 2,
 		id = 3811511,
-		upgrade_desc = "Every turn, +10 to a random stat for each Pentacles Reading possessed.",
+		upgrade_desc = "Every turn, +20 to a random stat for each Pentacles Reading possessed.",
 		content = {
 			38115111
 		},
@@ -34268,7 +34268,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When possessing 10 or more Readings, AP +1 next turn.",
+		desc = "When Readings possessed >10, AP +1 next turn.",
 		item_icon_little = "",
 		rare = 2,
 		tarot_tag = 20,
@@ -34301,7 +34301,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 20,
-		simple_desc = "Every 2 turns, gain a random Reading.",
+		simple_desc = "Every 3 turns, gain a random Reading.",
 		item_icon = "buff_entry_19",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -34446,7 +34446,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 18,
-		simple_desc = "At certain locations, <color=#ff9829>new random events</color> may occur.",
+		simple_desc = "At certain locations, new random events may occur.",
 		item_icon = "buff_entry_17",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -34475,7 +34475,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 18,
-		simple_desc = "At certain locations, <color=#ff9829>new random events</color> may occur.",
+		simple_desc = "At certain locations, new random events may occur.",
 		item_icon = "buff_entry_17",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -34976,7 +34976,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 2,
 		tarot_tag = 16,
-		simple_desc = "When obtained, gain Funds.",
+		simple_desc = "When obtained, gain Funds. Decrease amount of Funds gained permanently.",
 		item_icon = "buff_entry_15",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -35187,7 +35187,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 4,
-		simple_desc = "Increase amount of Funds gained.",
+		simple_desc = "Increase amount of Funds gained. At turn end, lose some Funds.",
 		item_icon = "buff_entry_3",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -35270,7 +35270,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35299,7 +35299,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35328,7 +35328,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35357,7 +35357,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35386,7 +35386,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35415,7 +35415,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35444,7 +35444,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35473,7 +35473,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35502,7 +35502,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35531,7 +35531,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35560,7 +35560,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35589,7 +35589,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35618,7 +35618,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35647,7 +35647,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35676,7 +35676,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent, +5% to amount of all stats gained until turn end.",
+		desc = "Every time 100 Funds are spent, +10% to amount of all stats gained until turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 4,
@@ -35792,11 +35792,11 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "+60% to amount of funds gained.",
+		desc = "+60% to amount of Funds gained.",
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 13,
-		simple_desc = "Double amount of Funds gained.",
+		simple_desc = "Gain more Funds.",
 		item_icon = "buff_entry_12",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller (Hard Mode)",
@@ -35868,7 +35868,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -35897,7 +35897,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -35926,7 +35926,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -35955,7 +35955,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -35984,7 +35984,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36013,7 +36013,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36042,7 +36042,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36071,7 +36071,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36100,7 +36100,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36129,7 +36129,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every time 100 Funds are spent on the same turn, +10 Funds at turn end.",
+		desc = "Every time 100 Funds are spent on the same turn, +15 Funds at turn end.",
 		item_icon_little = "",
 		rare = 3,
 		tarot_tag = 4,
@@ -36679,7 +36679,7 @@ pg.base.child2_benefit_list = {
 	},
 	[3820631] = {
 		benefit_level = 2,
-		name = "The Magician – I",
+		name = "The Magician - I",
 		is_show = 1,
 		is_tip = 0,
 		type = 4,
@@ -37036,7 +37036,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When spending 150 or more Funds in 1 turn, Personality changes in a random direction by 5 points.",
+		desc = "When spending 200 or more Funds in 1 turn, Personality changes in a random direction by 5 points.",
 		item_icon_little = "",
 		rare = 1,
 		tarot_tag = 3,
@@ -37152,7 +37152,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "If an even number of AP are spent during a turn, +160 Funds at turn end.",
+		desc = "If an even number of AP are spent during a turn, +200 Funds at turn end.",
 		item_icon_little = "",
 		rare = 2,
 		tarot_tag = 7,
@@ -37312,7 +37312,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 19,
-		simple_desc = "When gaining Shy Personality value, increase amount of all stats gained next turn.",
+		simple_desc = "When gaining Shy Personality value, increase amount of some stats gained next turn.",
 		item_icon = "buff_entry_18",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller (Hard Mode)",
@@ -37343,7 +37343,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 19,
-		simple_desc = "When gaining Outgoing Personality value, increase amount of stats gained next turn.",
+		simple_desc = "When gaining Outgoing Personality value, increase amount of some stats gained next turn.",
 		item_icon = "buff_entry_18",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller (Hard Mode)",
@@ -37858,7 +37858,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When possessing 14 or more Death Readings, +100% to amount of all stats gained.",
+		desc = "When possessing more than 13 Death Readings, 100% to amount of all stats gained.",
 		item_icon_little = "",
 		rare = 1,
 		tarot_tag = 14,
@@ -37916,7 +37916,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "After possessing a Death Tarot Card for a total of 13 turns, +65% to amount of all stats gained.",
+		desc = "After possessing a Death Tarot Card for a total of 13 turns, +130% to amount of all stats gained.",
 		item_icon_little = "",
 		rare = 2,
 		tarot_tag = 14,
@@ -38065,7 +38065,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 4,
 		tarot_tag = 23,
-		simple_desc = "When performing Experiences, increase Fitness.",
+		simple_desc = "When performing Experiences, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38094,7 +38094,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 23,
-		simple_desc = "When a random event occurs, increase Fitness.",
+		simple_desc = "When a random event occurs, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38123,7 +38123,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 6,
 		tarot_tag = 23,
-		simple_desc = "Before Assessment starts, increase Fitness.",
+		simple_desc = "Before Assessment starts, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38152,7 +38152,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 7,
 		tarot_tag = 23,
-		simple_desc = "After Assessments ends, increase Fitness.",
+		simple_desc = "After Assessments ends, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38181,7 +38181,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 8,
 		tarot_tag = 23,
-		simple_desc = "When performing Sightseeing, increase Fitness.",
+		simple_desc = "When performing Sightseeing, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38210,7 +38210,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 9,
 		tarot_tag = 23,
-		simple_desc = "When leveling up a Reading, increase Fitness.",
+		simple_desc = "When leveling up a Reading, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38239,7 +38239,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 10,
 		tarot_tag = 23,
-		simple_desc = "Every turn, when certain Readings are possessed, increase Fitness.",
+		simple_desc = "Every turn, when certain Readings are possessed, increase a random stat.",
 		item_icon = "buff_entry_22",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38529,7 +38529,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 10,
 		tarot_tag = 24,
-		simple_desc = "Every turn, when possessing certain Readings, increase Dexterity.",
+		simple_desc = "Every turn, when possessing certain Readings, increase a random stat.",
 		item_icon = "buff_entry_24",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38676,7 +38676,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 25,
-		simple_desc = "Randomly gain Outgoing value.",
+		simple_desc = "Randomly gain Outgoing Personality value.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38705,7 +38705,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 6,
 		tarot_tag = 25,
-		simple_desc = "Randomly gain Shy value.",
+		simple_desc = "Randomly gain Shy Personality value.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38763,7 +38763,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 8,
 		tarot_tag = 25,
-		simple_desc = "When gaining personality value, there is a chance to gain Funds.",
+		simple_desc = "When gaining Personality value, there is a chance to gain Funds.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38825,7 +38825,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 10,
 		tarot_tag = 25,
-		simple_desc = "Every turn, when possessing certain Readings, increase Sensitivity.",
+		simple_desc = "Every turn, when possessing certain Readings, increase a random stat.",
 		item_icon = "buff_entry_23",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38883,7 +38883,7 @@ pg.base.child2_benefit_list = {
 		item_icon_little = "",
 		rare = 2,
 		tarot_tag = 26,
-		simple_desc = "Every turn, gain 1 Fortune Teller refresh.",
+		simple_desc = "Every 3 turns, gain 1 Fortune Teller refresh.",
 		item_icon = "buff_entry_25",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",
@@ -38966,7 +38966,7 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "When over 300 Funds are spent in a turn, Mood +16 at turn end.",
+		desc = "When over 150 Funds are spent in a turn, Mood +10 at turn end.",
 		item_icon_little = "",
 		rare = 5,
 		tarot_tag = 26,
@@ -38995,11 +38995,11 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		type = 4,
 		debuff_tag = 0,
-		desc = "Every turn, gain 1 redraw.",
+		desc = "Every turn, gain 1 Tarot Card/Reading redraw.",
 		item_icon_little = "",
 		rare = 6,
 		tarot_tag = 26,
-		simple_desc = "Every turn, gain 1 Tarot Card/Reading redraw.",
+		simple_desc = "Every 2 turns, gain 1 redraw.",
 		item_icon = "buff_entry_25",
 		count_desc = "",
 		get = "Obtainable from Fortune Teller",

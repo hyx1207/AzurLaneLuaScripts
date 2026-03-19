@@ -86,12 +86,12 @@ Mood affects how many stats and Funds you get.
 	},
 	[303] = {
 		item_icon = "res_xingdongli2",
-		name = "Action points",
+		name = "Action Points",
 		min_value = 0,
 		type = 3,
 		max_value = 99,
 		default_value = 3,
-		desc = "Used for going outside. Automatically recovers every turn.",
+		desc = "AP, used for going outside. Automatically recovers every turn.",
 		character = 2,
 		id = 303,
 		icon = "res_xingdongli"

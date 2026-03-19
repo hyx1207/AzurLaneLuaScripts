@@ -4530,7 +4530,7 @@ pg.base.island_chara_template = {
 		in_task = {}
 	},
 	[990001] = {
-		name = "领洋者-娜比娅",
+		name = "Oceana",
 		power = 100,
 		invite_item = 200021,
 		chara_pic = "99000100",
@@ -4744,7 +4744,7 @@ pg.base.island_chara_template = {
 		in_task = {}
 	},
 	[990002] = {
-		name = "领航员-TB",
+		name = "TB",
 		power = 100,
 		invite_item = 200022,
 		chara_pic = "99000200",
@@ -4958,7 +4958,7 @@ pg.base.island_chara_template = {
 		in_task = {}
 	},
 	[990003] = {
-		name = "探索者-艾普洛",
+		name = "Explorer",
 		power = 100,
 		invite_item = 200023,
 		chara_pic = "99000300",

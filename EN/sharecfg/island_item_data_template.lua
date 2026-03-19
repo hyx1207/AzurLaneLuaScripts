@@ -10116,8 +10116,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[200021] = {
-		name = "领洋者-娜比娅岛屿权限认证函",
-		desc = "领洋者-娜比娅的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "Island Authority Permit: Oceana",
+		desc = "An Island Authority Permit for Oceana. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10141,14 +10141,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"Obtained from an Event",
 				{}
 			}
 		}
 	},
 	[200022] = {
-		name = "领航员-TB岛屿权限认证函",
-		desc = "领航员-TB的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "Island Authority Permit: TB",
+		desc = "An Island Authority Permit for TB. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10172,14 +10172,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"Obtained from an Event",
 				{}
 			}
 		}
 	},
 	[200023] = {
-		name = "探索者-艾普洛岛屿权限认证函",
-		desc = "探索者-艾普洛的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "Island Authority Permit: Explorer",
+		desc = "An Island Authority Permit for Explorer. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10203,7 +10203,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"Obtained from an Event",
 				{}
 			}
 		}
