@@ -21,7 +21,7 @@ return {
 		{
 			say = "Bless your heart, Commander!",
 			animation = "nod",
-			characterId = 101100,
+			characterId = 0,
 			subName = "Manager of the Orchard",
 			face2Face = {
 				{

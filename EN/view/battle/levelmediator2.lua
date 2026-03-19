@@ -1322,6 +1322,11 @@ slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 					end)
 
 					if #slot8 > 0 then
+						_.each(slot7, function (slot0)
+							slot2, slot3 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.memory_template[slot0].unlock_pre)
+
+							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot2)
+						end)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							yesText = "text_go",
 							content = i18n("levelScene_remaster_story_tip", pg.memory_group[slot6].title),
@@ -1447,6 +1452,11 @@ end
 
 slot0.DisplayContinuousWindow = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:getConfig("oil")
+
+	if slot1:IsSupportSubmarineStage() and #slot1:getSupportFleet() > 0 then
+		slot5 = slot5 + getGameset("submarine_support_oil_consume")[1]
+	end
+
 	slot7 = 0
 	slot8 = 0
 

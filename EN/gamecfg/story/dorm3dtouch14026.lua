@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit3_tone5/drom3d_aegir_ik_gfit3_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Ah?! How many times have I told you not to... Oh, who even cares...",
+			say = "唔？！说过多少次不准……算了随你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

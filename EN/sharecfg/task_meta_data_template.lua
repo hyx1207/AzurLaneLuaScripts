@@ -3343,7 +3343,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100531,
 		target_num = 1,
-		desc = "Win 1 battle with Regensburg META in your fleet."
+		desc = "使用{namecode:552}获得1次胜利"
 	},
 	[100532] = {
 		target_id = "30",
@@ -3351,7 +3351,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100532,
 		target_num = 1,
-		desc = "Defeat a Lv. 30+ fleet with Regensburg META in your fleet."
+		desc = "使用{namecode:552}击破等级＞30的敌方1次"
 	},
 	[100533] = {
 		target_id = "55",
@@ -3359,7 +3359,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100533,
 		target_num = 1,
-		desc = "Defeat a Lv. 55+ fleet with Regensburg META in your fleet."
+		desc = "使用{namecode:552}击破等级＞55的敌方1次"
 	},
 	[100534] = {
 		target_id = "80",
@@ -3367,7 +3367,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100534,
 		target_num = 1,
-		desc = "Defeat a Lv. 80+ fleet with Regensburg META in your fleet."
+		desc = "使用{namecode:552}击破等级＞80的敌方1次"
 	},
 	[100535] = {
 		target_id = "100",
@@ -3375,7 +3375,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 100535,
 		target_num = 1,
-		desc = "Defeat a Lv. 100+ fleet with Regensburg META in your fleet."
+		desc = "使用{namecode:552}击破等级＞100的敌方1次"
 	},
 	[200001] = {
 		target_id = "0",
@@ -4759,7 +4759,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 200441,
 		target_num = 1,
-		desc = "Win 1 Operation Siren battle with Regensburg META in your fleet."
+		desc = "大型作战内使用{namecode:552}获得1次胜利"
 	},
 	[200442] = {
 		target_id = "70",
@@ -4767,7 +4767,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 200442,
 		target_num = 1,
-		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Regensburg META in your fleet."
+		desc = "大型作战内使用{namecode:552}击破等级＞70的敌方1次"
 	},
 	[200443] = {
 		target_id = "90",
@@ -4775,7 +4775,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 200443,
 		target_num = 1,
-		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Regensburg META in your fleet."
+		desc = "大型作战内使用{namecode:552}击破等级＞90的敌方1次"
 	},
 	[200444] = {
 		target_id = "100",
@@ -4783,6 +4783,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970211",
 		id = 200444,
 		target_num = 1,
-		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Regensburg META in your fleet."
+		desc = "大型作战内使用{namecode:552}击破等级＞100的敌方1次"
 	}
 }

@@ -175,6 +175,209 @@ pg.child2_memory = {
 		pic = "bg_project_oceana_cg22",
 		desc = "A Future With You 2"
 	},
+	[201] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA1",
+		character = 2,
+		id = 201,
+		pic = "bg_project_explorer_cg33",
+		desc = "Commence Project Identity: Explorer!"
+	},
+	[202] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA3",
+		character = 2,
+		id = 202,
+		pic = "bg_project_explorer_cg38",
+		desc = "A Timid First Day of School"
+	},
+	[203] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA4",
+		character = 2,
+		id = 203,
+		pic = "bg_project_explorer_cg36",
+		desc = "Merry-Go-Round"
+	},
+	[204] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA5",
+		character = 2,
+		id = 204,
+		pic = "bg_project_explorer_cg37",
+		desc = "Warmth in the Winter"
+	},
+	[205] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA6",
+		character = 2,
+		id = 205,
+		pic = "bg_project_explorer_cg34",
+		desc = "A Day with the Rabbits"
+	},
+	[206] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA7",
+		character = 2,
+		id = 206,
+		pic = "bg_project_explorer_cg35",
+		desc = "Beneath the Blossoms"
+	},
+	[207] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA8",
+		character = 2,
+		id = 207,
+		pic = "bg_project_explorer_cg39",
+		desc = "A Promise on the Swing"
+	},
+	[208] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA9",
+		character = 2,
+		id = 208,
+		pic = "bg_project_explorer_cg9",
+		desc = "Lighthearted Expectation I"
+	},
+	[209] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA10",
+		character = 2,
+		id = 209,
+		pic = "bg_project_explorer_cg9",
+		desc = "Lighthearted Expectation II"
+	},
+	[210] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA11",
+		character = 2,
+		id = 210,
+		pic = "bg_project_explorer_cg2",
+		desc = "Splash Fight!"
+	},
+	[211] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA12",
+		character = 2,
+		id = 211,
+		pic = "bg_project_explorer_cg6",
+		desc = "The Taste of Rhino Beetles"
+	},
+	[212] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA13",
+		character = 2,
+		id = 212,
+		pic = "bg_project_explorer_cg7",
+		desc = "Late-Night Repairs"
+	},
+	[213] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA14",
+		character = 2,
+		id = 213,
+		pic = "bg_project_explorer_cg1",
+		desc = "What's in a Painting"
+	},
+	[214] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA15",
+		character = 2,
+		id = 214,
+		pic = "bg_project_explorer_cg4",
+		desc = "A Moment in the Rain"
+	},
+	[215] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA16",
+		character = 2,
+		id = 215,
+		pic = "bg_project_explorer_cg3",
+		desc = "Preserving a Beautiful Winter"
+	},
+	[216] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA17",
+		character = 2,
+		id = 216,
+		pic = "bg_project_explorer_cg5",
+		desc = "First Mate's Maiden Voyage"
+	},
+	[217] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA18",
+		character = 2,
+		id = 217,
+		pic = "bg_project_explorer_cg8",
+		desc = "Toward the Future with My Dearest I"
+	},
+	[218] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA19",
+		character = 2,
+		id = 218,
+		pic = "bg_project_explorer_cg8",
+		desc = "Toward the Future with My Dearest II"
+	},
+	[219] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA20",
+		character = 2,
+		id = 219,
+		pic = "bg_project_explorer_cg30",
+		desc = "The First Step to Looking Fashionable"
+	},
+	[220] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA21",
+		character = 2,
+		id = 220,
+		pic = "bg_project_explorer_cg30",
+		desc = "A Girl's Secrets"
+	},
+	[221] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA22",
+		character = 2,
+		id = 221,
+		pic = "bg_project_explorer_cg27",
+		desc = "The Reflections of a Heart"
+	},
+	[222] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA23",
+		character = 2,
+		id = 222,
+		pic = "bg_project_explorer_cg29",
+		desc = "The Feelings Behind the Strings"
+	},
+	[223] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA24",
+		character = 2,
+		id = 223,
+		pic = "bg_project_explorer_cg28",
+		desc = "This Sweetness Is for You"
+	},
+	[224] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA25",
+		character = 2,
+		id = 224,
+		pic = "bg_project_explorer_cg24",
+		desc = "Spring, Preserved in Pictures"
+	},
+	[225] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA26",
+		character = 2,
+		id = 225,
+		pic = "bg_project_explorer_cg25",
+		desc = "Her First Reading"
+	},
+	[226] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA27",
+		character = 2,
+		id = 226,
+		pic = "bg_project_explorer_cg26",
+		desc = "A Future Together"
+	},
+	[227] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA28",
+		character = 2,
+		id = 227,
+		pic = "bg_project_explorer_cg31",
+		desc = "A Fresh Start"
+	},
+	[228] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA29",
+		character = 2,
+		id = 228,
+		pic = "bg_project_explorer_cg31",
+		desc = "A Fresh Start"
+	},
+	[229] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA30",
+		character = 2,
+		id = 229,
+		pic = "bg_project_explorer_cg32",
+		desc = "新的起点"
+	},
 	get_id_list_by_character = {
 		{
 			101,
@@ -202,6 +405,37 @@ pg.child2_memory = {
 			123,
 			124,
 			125
+		},
+		{
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229
 		}
 	},
 	all = {
@@ -229,6 +463,35 @@ pg.child2_memory = {
 		122,
 		123,
 		124,
-		125
+		125,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229
 	}
 }

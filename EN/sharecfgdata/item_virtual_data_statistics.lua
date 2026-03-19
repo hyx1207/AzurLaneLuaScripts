@@ -171279,6 +171279,31 @@ _G.pg.base.item_virtual_data_statistics[65554] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65557] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Party Dress)",
+	display = "Can be used to get a 300 Gem discount when buying a rerunning Party Dress skin during the eligible period.\nExpires after maintenance on 2026/4/8.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50500,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65557,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65561] = {
 	drop_gold_max = 0,
 	name = "Tenko Group Badge",
@@ -177223,7 +177248,7 @@ _G.pg.base.item_virtual_data_statistics[65871] = {
 _G.pg.base.item_virtual_data_statistics[65872] = {
 	drop_gold_max = 0,
 	name = "Antarctic Crystal Sample",
-	display = "Used to exchange for items in \"Snowrealm Peregrination\" rerun event. Will be removed after the event ends.",
+	display = "用于「雪境迷踪」复刻活动兑换，活动结束后将会消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -177248,7 +177273,7 @@ _G.pg.base.item_virtual_data_statistics[65872] = {
 _G.pg.base.item_virtual_data_statistics[65873] = {
 	drop_gold_max = 0,
 	name = "Shipbuilding Support Ticket",
-	display = "A limited construction ticket for use during the \"Snowrealm Peregrination\" rerun event. Removed after the event ends.",
+	display = "于「雪境迷踪」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -177512,6 +177537,56 @@ _G.pg.base.item_virtual_data_statistics[66012] = {
 	drop_oil_max = 0,
 	virtual_type = 103,
 	id = 66012,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66013] = {
+	drop_gold_max = 0,
+	name = "Trust - Little Friedrich",
+	display = "\"Today's Conducting Practice\" event item. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaofeitelie_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66013,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66014] = {
+	drop_gold_max = 0,
+	name = "小腓特烈大帝转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50501,
+	icon = "Props/masaiqu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66014,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -187246,6 +187321,62 @@ _G.pg.base.item_virtual_data_statistics[86225] = {
 			1340
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86226] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Purchasing this item will give you 1 random, unowned skin from the following list (if you already own all applicable skins, you will instead receive 680 Gems). All skins share the same acquisition probability:
+San Juan - The Longing Princess;
+Biloxi - Empress in the Silk Seat;
+Wichita - The General's Banquet;
+Massachusetts - Dressed to Impress;
+Enterprise - Heroic Finery;
+Independence - The Independent Line;
+Albacore - Beneath the Black Dress;
+Dido - Anxious Bisque Doll;
+Sheffield - Black Crow's Finery;
+Belfast - The Noble Attendant;
+Ikazuchi - Dawn's Thunder;
+Inazuma - Dusk's Lightning;
+Agano - Blue Butterfly's Confession;
+Noshiro - Xanadu's Eventide;
+Akagi - Ruby-Laced Beauty;
+Kaga - Exalted White Wings;
+Shinano - Dreams of the Hazy Moon;
+Prinz Eugen - Cordial Cornflower;
+Tirpitz - Iron Blood Snowstorm;
+Littorio - Calabria Aurea;
+Jean Bart - Uninhibited Bloodstone;
+Seattle - Gorgeous Party;
+Laffey - Lazy Days;
+Amagi(CV) - Throne of Fallen Petals;
+Watarase - Garments of Everlasting Magic;
+Cheshire - The Cat and the White Steed;
+South Dakota - Solo Concert;
+Aurora - Dawn's Paean;
+Duke of York - Eternal Night's Carola;
+Georgia - South Town Pearl;]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86226,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

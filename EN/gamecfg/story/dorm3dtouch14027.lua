@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone3/drom3d_aegir_ik_furniture2_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "You think this is enough to bother me? Try a little harder.",
+			say = "这种程度就想让我动摇？还需要再努力一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

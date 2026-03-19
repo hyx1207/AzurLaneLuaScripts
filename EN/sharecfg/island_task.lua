@@ -255,6 +255,15 @@ pg.island_task = setmetatable({
 		[5] = {
 			50000001,
 			50000002,
+			51001001,
+			51001002,
+			51001003,
+			51002001,
+			51002002,
+			51002003,
+			51003001,
+			51003002,
+			51003003,
 			50001001,
 			50001002,
 			50001003,
@@ -291,6 +300,12 @@ pg.island_task = setmetatable({
 			50003006,
 			50003007,
 			50003008
+		},
+		[9] = {
+			51001000,
+			51002000,
+			51003000,
+			20013000
 		},
 		[8] = {
 			80001001,
@@ -383,9 +398,6 @@ pg.island_task = setmetatable({
 			80001228,
 			80001229,
 			80001230
-		},
-		[9] = {
-			20013000
 		}
 	},
 	all = {
@@ -478,6 +490,18 @@ pg.island_task = setmetatable({
 		10019999,
 		50000001,
 		50000002,
+		51001000,
+		51001001,
+		51001002,
+		51001003,
+		51002000,
+		51002001,
+		51002002,
+		51002003,
+		51003000,
+		51003001,
+		51003002,
+		51003003,
 		50001001,
 		50001002,
 		50001003,
@@ -4547,6 +4571,480 @@ pg.base.island_task = {
 				41,
 				1,
 				2000
+			}
+		}
+	},
+	[51001000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Invite Project Identity Characters",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510010001
+		},
+		reward_show = {}
+	},
+	[51001001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "Importing Data - I",
+		type = 5,
+		task_desc = "A special guest is coming to the island soon, and she's captivated by the developments taking place. Prepare some specialties to show her how the island is prospering.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001001,
+		unlock_condition = {
+			{
+				2,
+				51001000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Importing Data - II",
+		type = 5,
+		task_desc = "A special guest is coming to the island soon, and she's captivated by the developments taking place. Prepare some specialties to show her how the island is prospering.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001002,
+		unlock_condition = {
+			{
+				2,
+				51001001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Importing Data - III",
+		type = 5,
+		task_desc = "A special guest is coming to the island soon, and she's captivated by the developments taking place. Prepare some specialties to show her how the island is prospering.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001003,
+		unlock_condition = {
+			{
+				2,
+				51001002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010013,
+			510010014
+		},
+		reward_show = {
+			{
+				44,
+				990002,
+				1
+			}
+		}
+	},
+	[51002000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Attack of the Little Trickster",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510020001
+		},
+		reward_show = {}
+	},
+	[51002001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "Attack of the Little Trickster - I",
+		type = 5,
+		task_desc = "Say goodbye to peace and quiet! A little rascal is coming your way! Prepare some delicious food, or she'll never let you hear the end of it!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002001,
+		unlock_condition = {
+			{
+				2,
+				51002000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Attack of the Little Trickster - II",
+		type = 5,
+		task_desc = "Say goodbye to peace and quiet! A little rascal is coming your way! Prepare some delicious food, or she'll never let you hear the end of it!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002002,
+		unlock_condition = {
+			{
+				2,
+				51002001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Attack of the Little Trickster - III",
+		type = 5,
+		task_desc = "Say goodbye to peace and quiet! A little rascal is coming your way! Prepare some delicious food, or she'll never let you hear the end of it!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002003,
+		unlock_condition = {
+			{
+				2,
+				51002002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020013,
+			510020014
+		},
+		reward_show = {
+			{
+				44,
+				990001,
+				1
+			}
+		}
+	},
+	[51003000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "The Quiet Visitor",
+		type = 9,
+		task_desc = "特殊前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510030001
+		},
+		reward_show = {}
+	},
+	[51003001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "The Quiet Visitor - I",
+		type = 5,
+		task_desc = "A small, timid figure has been staring at you for some time now... Prepare some of the island's specialties to help her get accustomed to this place.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003001,
+		unlock_condition = {
+			{
+				2,
+				51003000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "The Quiet Visitor - II",
+		type = 5,
+		task_desc = "A small, timid figure has been staring at you for some time now... Prepare some of the island's specialties to help her get accustomed to this place.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003002,
+		unlock_condition = {
+			{
+				2,
+				51003001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "The Quiet Visitor - III",
+		type = 5,
+		task_desc = "A small, timid figure has been staring at you for some time now... Prepare some of the island's specialties to help her get accustomed to this place.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "Invite Project Identity Characters",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003003,
+		unlock_condition = {
+			{
+				2,
+				51003002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030013,
+			510030014
+		},
+		reward_show = {
+			{
+				44,
+				990003,
+				1
 			}
 		}
 	},

@@ -16139,9 +16139,9 @@ _G.pg.base.item_data_statistics[21057] = {
 
 _G.pg.base.item_data_statistics[21058] = {
 	open_directly = 0,
-	name = "META Crystal – Regensburg META",
+	name = "结晶：{namecode:552}",
 	type = 4,
-	display = "An item that increases the potential of Regensburg META. Used in the META Lab during Somatic Activation.",
+	display = "{namecode:552}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -16945,9 +16945,9 @@ _G.pg.base.item_data_statistics[21921] = {
 
 _G.pg.base.item_data_statistics[21922] = {
 	open_directly = 0,
-	name = "Synchronization Point – Regensburg META",
+	name = "同步值：{namecode:552}",
 	type = 0,
-	display = "Sync Points for Regensburg META.",
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:552}同步率。",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93662,6 +93662,37 @@ _G.pg.base.item_data_statistics[44021] = {
 }
 
 
+_G.pg.base.item_data_statistics[44022] = {
+	open_directly = 0,
+	name = "2018年情人节礼物",
+	type = 1,
+	display = "可以自选一位角色，赠送您的专属情人节礼物。 ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_loveitem_change_2018",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/head",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "Oxy-cola",
@@ -110922,6 +110953,93 @@ _G.pg.base.item_data_statistics[81233] = {
 }
 
 
+_G.pg.base.item_data_statistics[81234] = {
+	open_directly = 1,
+	name = "Party Dress Return Lucky Box",
+	type = 17,
+	display = "Purchasing this item will give you 1 random, unowned skin from the following list (if you already own all applicable skins, you will instead receive 680 Gems), Coins x2,000, Oil x1,000, and Cognitive Chips x20.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_random_skin",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai34",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 81234,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86226,
+			1
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			2,
+			15008,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		998330,
+		680,
+		{
+			307151,
+			302251,
+			299033,
+			131172,
+			102221,
+			102252,
+			103111,
+			105191,
+			107065,
+			107222,
+			108021,
+			202041,
+			202083,
+			202123,
+			301113,
+			301123,
+			302203,
+			302212,
+			307013,
+			307023,
+			307081,
+			403033,
+			405022,
+			605022,
+			905011,
+			199011,
+			105141,
+			202152,
+			205072,
+			199021
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81400] = {
 	open_directly = 1,
 	name = "Cyber City Lucky Box",
@@ -115263,5 +115381,118 @@ _G.pg.base.item_data_statistics[180010] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180099] = {
+	open_directly = 0,
+	name = "甜蜜自选礼盒",
+	type = 13,
+	display = "一份寄托心意的神秘赠礼，开启后可以自行选择一个角色好感度礼物（超稀有礼物除外）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180099,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			180002,
+			1
+		},
+		{
+			2,
+			180003,
+			1
+		},
+		{
+			2,
+			180004,
+			1
+		},
+		{
+			2,
+			180005,
+			1
+		},
+		{
+			2,
+			180006,
+			1
+		},
+		{
+			2,
+			180007,
+			1
+		},
+		{
+			2,
+			180008,
+			1
+		},
+		{
+			2,
+			180009,
+			1
+		}
+	},
 	limit = {}
 }

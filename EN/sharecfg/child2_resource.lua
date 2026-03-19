@@ -54,18 +54,110 @@ Mood affects how many stats and Funds you get.
 		id = 4,
 		icon = "res_haogandu"
 	},
+	[301] = {
+		item_icon = "res_jinqian2",
+		name = "Funds",
+		min_value = 0,
+		type = 1,
+		max_value = 99999,
+		default_value = 50,
+		desc = "Money that is used in all sorts of scenarios in Project Identity.",
+		character = 2,
+		id = 301,
+		icon = "res_jinqian"
+	},
+	[302] = {
+		item_icon = "res_xinqing2",
+		name = "Mood",
+		min_value = 0,
+		type = 2,
+		max_value = 100,
+		default_value = 50,
+		desc = [[
+$1
+Mood affects how many stats and Funds you get.
+0 - 19: Depressed - 40% less Funds
+20 to 39: Sad - 20% less Funds
+40 to 59: Normal - No effect
+60 to 100: Happy - 40% more Funds]],
+		character = 2,
+		id = 302,
+		icon = "res_xinqing"
+	},
+	[303] = {
+		item_icon = "res_xingdongli2",
+		name = "Action points",
+		min_value = 0,
+		type = 3,
+		max_value = 99,
+		default_value = 3,
+		desc = "Used for going outside. Automatically recovers every turn.",
+		character = 2,
+		id = 303,
+		icon = "res_xingdongli"
+	},
+	[304] = {
+		item_icon = "res_haogandu2",
+		name = "Affection",
+		min_value = 0,
+		type = 4,
+		max_value = 500,
+		default_value = 50,
+		desc = "Having main screen conversations can increase your Affection.\nYou can get rewards from increasing your Affection as well.",
+		character = 2,
+		id = 304,
+		icon = "res_haogandu"
+	},
+	[305] = {
+		item_icon = "res_refresh1",
+		name = "Refreshes",
+		min_value = 0,
+		type = 5,
+		max_value = 3,
+		default_value = 0,
+		desc = "Use refreshes at the Fortune Teller to change the lineup",
+		character = 2,
+		id = 305,
+		icon = "res_refresh1"
+	},
+	[306] = {
+		item_icon = "res_refresh2",
+		name = "Redraws",
+		min_value = 0,
+		type = 6,
+		max_value = 500,
+		default_value = 5,
+		desc = "Use redraws on the selection screen to change the tarot cards and the reading",
+		character = 2,
+		id = 306,
+		icon = "res_refresh2"
+	},
 	get_id_list_by_character = {
 		{
 			1,
 			2,
 			3,
 			4
+		},
+		{
+			301,
+			302,
+			303,
+			304,
+			305,
+			306
 		}
 	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306
 	}
 }

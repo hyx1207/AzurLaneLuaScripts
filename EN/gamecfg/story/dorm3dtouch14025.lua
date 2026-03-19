@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit1_tone4/drom3d_aegir_ik_gfit1_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "You're all mine right now... Don't even think about running away.",
+			say = "此刻的你是属于我的，所以……别想逃哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -256,7 +256,13 @@ pg.island_shop_goods = setmetatable({
 		471051701,
 		471011001,
 		475060101,
-		474030301
+		474030301,
+		99000101,
+		99000102,
+		99000201,
+		99000202,
+		99000301,
+		99000302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11034,6 +11040,252 @@ pg.base.island_shop_goods = {
 			{
 				47,
 				4030301,
+				1
+			}
+		}
+	},
+	[99000101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Cheerful Route to School",
+		desc = "Purchase to receive Cheerful Route to School, a character outfit for Oceana.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000101,
+				1
+			}
+		}
+	},
+	[99000102] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Honor Student's Demeanor",
+		desc = "Purchase to receive Honor Student's Demeanor, a character outfit for Oceana.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000102,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000102,
+				1
+			}
+		}
+	},
+	[99000201] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Time of Innocence",
+		desc = "Purchase to receive Time of Innocence, a character outfit for TB.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000201,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000201,
+				1
+			}
+		}
+	},
+	[99000202] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Inexperienced Observer",
+		desc = "Purchase to receive Inexperienced Observer, a character outfit for TB.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000202",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000202,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000202,
+				1
+			}
+		}
+	},
+	[99000301] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Pure White Whisper",
+		desc = "Purchase to receive Pure White Whisper, a character outfit for Explorer.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000301",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000301,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000301,
+				1
+			}
+		}
+	},
+	[99000302] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "Serene Dress",
+		desc = "Purchase to receive Serene Dress, a character outfit for Explorer.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000302",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000302,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000302,
 				1
 			}
 		}

@@ -8397,18 +8397,7 @@ temp = function()
 								u = {
 									r = {
 										g = {
-											this = true,
-											[" "] = {
-												M = {
-													E = {
-														T = {
-															A = {
-																this = true
-															}
-														}
-													}
-												}
-											}
+											this = true
 										}
 									}
 								}
@@ -11309,6 +11298,52 @@ temp = function()
 											}
 										}
 									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["雷"] = {
+		["根"] = {
+			["斯"] = {
+				["堡"] = {
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瑞"] = {
+		["吉"] = {
+			["娜"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
 								}
 							}
 						}
