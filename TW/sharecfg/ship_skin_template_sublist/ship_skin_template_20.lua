@@ -5570,11 +5570,11 @@ pg.base.ship_skin_template_20 = {
 		}
 	},
 	[499100] = {
-		name = "{namecode:550}",
+		name = "梅克倫堡",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "战列舰——{namecode:550}",
+		desc = "戰列艦——梅克倫堡",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "meikelunbao",

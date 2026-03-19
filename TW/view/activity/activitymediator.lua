@@ -496,6 +496,8 @@ slot0.initNotificationHandleDic = function(slot0)
 			if ActivityConst.AOERLIANG_TASK_ID == slot2 then
 				return
 			end
+
+			slot0:showNextActivity(getProxy(ActivityProxy):getActivityById(slot2):getConfig("page_core"))
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
 			slot3 = slot1:getBody().awards

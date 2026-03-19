@@ -159482,7 +159482,7 @@ _G.pg.base.item_virtual_data_statistics[59317] = {
 _G.pg.base.item_virtual_data_statistics[59318] = {
 	drop_gold_max = 0,
 	name = "奶油餅乾",
-	display = "用於『奶油餅乾要夾心！』活動提升角色好感，活動結束後將會消失",
+	display = "用於『奶油餅乾帶夾心！』活動提升角色好感，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -159507,7 +159507,7 @@ _G.pg.base.item_virtual_data_statistics[59318] = {
 _G.pg.base.item_virtual_data_statistics[59319] = {
 	drop_gold_max = 0,
 	name = "奶油餅乾",
-	display = "用於『奶油餅乾要夾心！』活動提升角色好感，活動結束後將會消失",
+	display = "用於『奶油餅乾帶夾心！』活動提升角色好感，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -163725,6 +163725,56 @@ _G.pg.base.item_virtual_data_statistics[59547] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59547,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59548] = {
+	drop_gold_max = 0,
+	name = "奶油餅乾",
+	display = "用於『奶油餅乾帶夾心！』活動提升角色好感，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/naiyouquqi",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59548,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59549] = {
+	drop_gold_max = 0,
+	name = "奶油餅乾",
+	display = "用於『奶油餅乾帶夾心！』活動提升角色好感，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/naiyouquqi",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59549,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172175,6 +172225,106 @@ _G.pg.base.item_virtual_data_statistics[65028] = {
 	drop_oil_max = 0,
 	virtual_type = 21,
 	id = 65028,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65031] = {
+	drop_gold_max = 0,
+	name = "博覽會紀念幣",
+	display = "用於「雄鷹的敘事歌」復刻活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yidaliv3_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65032] = {
+	drop_gold_max = 0,
+	name = "訓練點數",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_yv2",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65033] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65033,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65034] = {
+	drop_gold_max = 0,
+	name = "單次建造券",
+	display = "於「雄鷹的敘事歌」活動在限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5594,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65034,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -188108,6 +188258,31 @@ _G.pg.base.item_virtual_data_statistics[80146] = {
 	drop_oil_max = 0,
 	virtual_type = 22,
 	id = 80146,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[80147] = {
+	drop_gold_max = 0,
+	name = "台服小柴郡转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 45094,
+	icon = "Props/masaiqu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 80147,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -6664,6 +6664,7 @@ _G.pg.base.shop_template[31965] = {
 	collaboration_skin_time = "",
 	order = 0,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -6676,32 +6677,6 @@ _G.pg.base.shop_template[31965] = {
 	limit_args = {},
 	effect_args = {
 		30336
-	},
-	time = {
-		{
-			{
-				2023,
-				11,
-				9
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				11,
-				22
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -10077,6 +10052,41 @@ _G.pg.base.shop_template[43047] = {
 	limit_args = {},
 	effect_args = {
 		301481
+	}
+}
+
+
+_G.pg.base.shop_template[43048] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 4,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "8000功勋兑换托里拆利",
+	group_limit = 0,
+	resource_num = 8000,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 3,
+	id = 43048,
+	genre = "arena_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		608011
 	}
 }
 
@@ -28560,6 +28570,266 @@ _G.pg.base.shop_template[60534] = {
 				2025,
 				5,
 				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60535] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "880钻石购买限时建造补给(罗马轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 880,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60535,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60536] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "120钻石购买限时攻略补给(罗马轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 120,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60536,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60537] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "500钻石购买家具币礼包(罗马轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 500,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60537,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60538] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "300钻石购买心智单元礼包(罗马轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 300,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60538,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -56249,8 +56519,9 @@ _G.pg.base.shop_template[70528] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56263,32 +56534,6 @@ _G.pg.base.shop_template[70528] = {
 	limit_args = {},
 	effect_args = {
 		603031
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56309,8 +56554,9 @@ _G.pg.base.shop_template[70529] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56323,32 +56569,6 @@ _G.pg.base.shop_template[70529] = {
 	limit_args = {},
 	effect_args = {
 		605011
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56369,8 +56589,9 @@ _G.pg.base.shop_template[70530] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56383,32 +56604,6 @@ _G.pg.base.shop_template[70530] = {
 	limit_args = {},
 	effect_args = {
 		602011
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56429,8 +56624,9 @@ _G.pg.base.shop_template[70531] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56443,32 +56639,6 @@ _G.pg.base.shop_template[70531] = {
 	limit_args = {},
 	effect_args = {
 		607011
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56609,8 +56779,9 @@ _G.pg.base.shop_template[70534] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56623,32 +56794,6 @@ _G.pg.base.shop_template[70534] = {
 	limit_args = {},
 	effect_args = {
 		608011
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56669,8 +56814,9 @@ _G.pg.base.shop_template[70535] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56683,32 +56829,6 @@ _G.pg.base.shop_template[70535] = {
 	limit_args = {},
 	effect_args = {
 		601051
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56729,8 +56849,9 @@ _G.pg.base.shop_template[70536] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56743,32 +56864,6 @@ _G.pg.base.shop_template[70536] = {
 	limit_args = {},
 	effect_args = {
 		601041
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56789,8 +56884,9 @@ _G.pg.base.shop_template[70537] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56803,32 +56899,6 @@ _G.pg.base.shop_template[70537] = {
 	limit_args = {},
 	effect_args = {
 		605062
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56849,8 +56919,9 @@ _G.pg.base.shop_template[70538] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56863,32 +56934,6 @@ _G.pg.base.shop_template[70538] = {
 	limit_args = {},
 	effect_args = {
 		605051
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -56909,8 +56954,9 @@ _G.pg.base.shop_template[70539] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 3,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -56923,32 +56969,6 @@ _G.pg.base.shop_template[70539] = {
 	limit_args = {},
 	effect_args = {
 		601061
-	},
-	time = {
-		{
-			{
-				2025,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2025,
-				10,
-				8
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -64609,7 +64629,7 @@ _G.pg.base.shop_template[70716] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64627,8 +64647,8 @@ _G.pg.base.shop_template[70716] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64639,9 +64659,9 @@ _G.pg.base.shop_template[70716] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64669,7 +64689,7 @@ _G.pg.base.shop_template[70717] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64687,8 +64707,8 @@ _G.pg.base.shop_template[70717] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64699,9 +64719,9 @@ _G.pg.base.shop_template[70717] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64729,7 +64749,7 @@ _G.pg.base.shop_template[70718] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64747,8 +64767,8 @@ _G.pg.base.shop_template[70718] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64759,9 +64779,9 @@ _G.pg.base.shop_template[70718] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64789,7 +64809,7 @@ _G.pg.base.shop_template[70719] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64807,8 +64827,8 @@ _G.pg.base.shop_template[70719] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64819,9 +64839,9 @@ _G.pg.base.shop_template[70719] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64849,7 +64869,7 @@ _G.pg.base.shop_template[70720] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64867,8 +64887,8 @@ _G.pg.base.shop_template[70720] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64879,9 +64899,9 @@ _G.pg.base.shop_template[70720] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64909,7 +64929,7 @@ _G.pg.base.shop_template[70721] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64927,8 +64947,8 @@ _G.pg.base.shop_template[70721] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64939,9 +64959,9 @@ _G.pg.base.shop_template[70721] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -64969,7 +64989,7 @@ _G.pg.base.shop_template[70722] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -64987,8 +65007,8 @@ _G.pg.base.shop_template[70722] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -64999,9 +65019,9 @@ _G.pg.base.shop_template[70722] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -65029,7 +65049,7 @@ _G.pg.base.shop_template[70723] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -65047,8 +65067,8 @@ _G.pg.base.shop_template[70723] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -65059,9 +65079,9 @@ _G.pg.base.shop_template[70723] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -65089,7 +65109,7 @@ _G.pg.base.shop_template[70724] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -65107,8 +65127,8 @@ _G.pg.base.shop_template[70724] = {
 	time = {
 		{
 			{
-				2025,
-				9,
+				2026,
+				3,
 				19
 			},
 			{
@@ -65119,9 +65139,9 @@ _G.pg.base.shop_template[70724] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				3,
+				25
 			},
 			{
 				23,
@@ -75156,10 +75176,10 @@ _G.pg.base.shop_template[70961] = {
 	resource_num = 880,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75191,10 +75211,10 @@ _G.pg.base.shop_template[70962] = {
 	resource_num = 800,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75226,10 +75246,10 @@ _G.pg.base.shop_template[70964] = {
 	resource_num = 980,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75261,10 +75281,10 @@ _G.pg.base.shop_template[70965] = {
 	resource_num = 800,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75296,10 +75316,10 @@ _G.pg.base.shop_template[70966] = {
 	resource_num = 1100,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75331,10 +75351,10 @@ _G.pg.base.shop_template[70967] = {
 	resource_num = 900,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -75366,10 +75386,10 @@ _G.pg.base.shop_template[70968] = {
 	resource_num = 800,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 100,
 	akashi_pick = 0,
 	time = "always",
 	group = 0,
@@ -96737,6 +96757,186 @@ _G.pg.base.shop_template[90152] = {
 				2023,
 				8,
 				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[90153] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 172800,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "220728限时皮肤体验：罗马舞蹈",
+	group_limit = 0,
+	resource_num = 1,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 434,
+	id = 90153,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		605031
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[90154] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 172800,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "220728限时皮肤体验：朱塞佩·加里波第舞蹈",
+	group_limit = 0,
+	resource_num = 1,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 434,
+	id = 90154,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		602021
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[90155] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 172800,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "220728限时皮肤体验：莱昂纳多·达·芬奇舞蹈",
+	group_limit = 0,
+	resource_num = 1,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 3,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 434,
+	id = 90155,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		608021
+	},
+	time = {
+		{
+			{
+				2026,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				3,
+				25
 			},
 			{
 				23,

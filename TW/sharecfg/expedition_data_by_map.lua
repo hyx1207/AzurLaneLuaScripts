@@ -485,6 +485,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100382,
 		2100391,
 		2100392,
+		2100401,
+		2100402,
+		2100411,
+		2100412,
 		2100421,
 		2100422,
 		2100431,
@@ -12838,7 +12842,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -12888,7 +12892,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -12938,7 +12942,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660003",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -12988,7 +12992,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -13038,7 +13042,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -13088,7 +13092,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1660005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4471,
+		on_activity = 5597,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -28584,6 +28588,206 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 2100382,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100401] = {
+		map = 2100401,
+		name = "復興的讚美詩·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-italy",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1410001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100411,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100402] = {
+		map = 2100402,
+		name = "復興的讚美詩·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-italy",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1410002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100412,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100411] = {
+		map = 2100411,
+		name = "復興的讚美詩·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-italy",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1410003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100401,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100412] = {
+		map = 2100412,
+		name = "復興的讚美詩·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-italy",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1410004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100402,
 		clouds_pos = {
 			{
 				332,

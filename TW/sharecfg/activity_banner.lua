@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					25
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -63,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					14,
@@ -74,21 +74,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5597",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "MoscowURCoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -100,7 +95,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					14,
@@ -117,7 +112,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		},
 		time = {
@@ -125,7 +120,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -137,7 +132,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					25
 				},
 				{
 					23,
@@ -162,7 +157,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -174,7 +169,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					25
 				},
 				{
 					23,
@@ -185,29 +180,102 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
-		pic = "temp7",
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
 		pic = "temp6",
 		param = {
-			"dorm 3d select"
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "50372",
-		time = "stop",
-		type = 2,
+		param = "5604",
+		type = 3,
+		id = 7,
+		pic = "temp7",
+		time = {
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5297",
+		type = 3,
 		id = 8,
-		pic = "temp8"
+		pic = "temp8",
+		time = {
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					2
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		type = 2,
@@ -293,7 +361,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					5
+					19
 				},
 				{
 					0,
@@ -305,7 +373,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					25
 				},
 				{
 					23,
@@ -703,12 +771,9 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
 			6,
-			7,
-			8,
 			9,
 			11,
 			1000,
@@ -736,6 +801,9 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			3,
+			7,
+			8,
 			10,
 			1003
 		},

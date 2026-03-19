@@ -83,7 +83,7 @@ pg.voice_bgm = {
 	NewMainScene = {
 		default_bgm = "theme-china-zhangwu",
 		special_bgm = "",
-		bgm = "theme-china-zhangwu"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1649,6 +1649,31 @@ pg.voice_bgm = {
 		default_bgm = "bar-soft",
 		special_bgm = "",
 		bgm = "bar-soft"
+	},
+	YidaliV3FrameRePage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		bgm = "story-italy"
+	},
+	Yidaliv3LoginRePage = {
+		default_bgm = "battle-boss-italy",
+		special_bgm = "",
+		bgm = "battle-boss-italy"
+	},
+	YidaliV3MainRePage = {
+		default_bgm = "story-roma-inside",
+		special_bgm = "",
+		bgm = "story-roma-inside"
+	},
+	YidaliV3PtRePage = {
+		default_bgm = "story-roma-outside",
+		special_bgm = "",
+		bgm = "story-roma-outside"
+	},
+	YidaliV3SkinRePage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		bgm = "story-italy"
 	},
 	StormSeaMainPage = {
 		default_bgm = "theme-ganjisawai",
