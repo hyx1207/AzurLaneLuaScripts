@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone5/drom3d_aegir_ik_furniture2_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "讨好我也没用……不过，勉强合格。",
+			say = "Flattery will get you nowhere... Well, okay, maybe this isn't so bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

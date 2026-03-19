@@ -9004,7 +9004,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1007] = {
-		title = "Navi's Thoughts",
+		title = "Lora's Thoughts",
 		subtype = 3,
 		link_event = 0,
 		type = 2,

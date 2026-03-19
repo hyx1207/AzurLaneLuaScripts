@@ -26,6 +26,10 @@ slot0.Play = function(slot0, slot1, slot2)
 end
 
 slot0.GetNextId = function(slot0, slot1)
+	if type(slot1) ~= "number" then
+		slot1 = 0
+	end
+
 	for slot6, slot7 in ipairs(slot0.config.result_data) do
 		if slot7[1][1] <= slot1 and slot7[1][2] <= slot1 then
 			return slot7[2][1]

@@ -679,7 +679,7 @@ _G.pg.base.gametip.word_backyardMoney = {
 
 
 _G.pg.base.gametip.word_cancel = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -1880,7 +1880,7 @@ _G.pg.base.gametip.common_limit_equip = {
 
 
 _G.pg.base.gametip.common_buy_success = {
-	tip = "Unlocked!"
+	tip = "Purchased!"
 }
 
 
@@ -1930,7 +1930,7 @@ _G.pg.base.gametip.common_no_open = {
 
 
 _G.pg.base.gametip["common_already owned"] = {
-	tip = "Owned"
+	tip = "Have"
 }
 
 
@@ -3537,7 +3537,7 @@ _G.pg.base.gametip.mail_box_confirm = {
 
 
 _G.pg.base.gametip.mail_box_cancel = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -5982,7 +5982,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.
+From <color=#92fc63>3/12/26 to 6/4/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -5991,7 +5991,7 @@ From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to 
 · You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.
 
 - Fighting Your Bosses -
-· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
+· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, the cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
 · When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.
 · Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.
 · After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.
@@ -5999,7 +5999,7 @@ From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to 
 - Fighting Others' Bosses -
 · In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.
 · Each attempt uses 1 Challenge Attempt, but uses no Oil.
-· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.
+· You can have up to <color=#92fc63>3</color> Challenge Attempts, resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
 
 - Combat Instructions -
@@ -11443,7 +11443,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "Gear Skin Box (Spring Festival Auction) & (Spring Auspices) are purchasable during (<color=#539b2c>02.12-03.04</COLOR>)\nGear Skin Box (Springtide Inn) are purchasable during (<color=#539b2c>02.26-03.11</COLOR>)"
+	tip = "※<color=#2E852C>Gear Skins</color> are purchasable during(<color=#2E852C>$1</COLOR>)!"
 }
 
 
@@ -13678,7 +13678,7 @@ _G.pg.base.gametip.ranking_word_4 = {
 
 
 _G.pg.base.gametip.ranking_word_5 = {
-	tip = "Leaderboard"
+	tip = "Rank"
 }
 
 
@@ -21855,7 +21855,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>3/12/26 to 6/4/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -22065,7 +22065,7 @@ _G.pg.base.gametip.world_automode_treasure_3 = {
 
 
 _G.pg.base.gametip.world_automode_cancel = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -24904,7 +24904,7 @@ _G.pg.base.gametip.tactics_class_start = {
 
 
 _G.pg.base.gametip.tactics_class_cancel = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -27157,7 +27157,7 @@ _G.pg.base.gametip.event_ui_start = {
 
 
 _G.pg.base.gametip.event_ui_giveup = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -28798,7 +28798,7 @@ _G.pg.base.gametip.ryza_task_confirm = {
 
 
 _G.pg.base.gametip.ryza_task_cancel = {
-	tip = "Return"
+	tip = "Cancel"
 }
 
 
@@ -33766,7 +33766,7 @@ _G.pg.base.gametip.commander_selected_max = {
 
 
 _G.pg.base.gametip.word_talent = {
-	tip = "Ability"
+	tip = "Talent"
 }
 
 
@@ -34389,7 +34389,7 @@ _G.pg.base.gametip.vote_label_rank = {
 
 
 _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
-	tip = "The leaderboard is updated every 30 min."
+	tip = "The ranking is updated every 30 minutes."
 }
 
 
@@ -41479,7 +41479,7 @@ _G.pg.base.gametip.island_season_charts_refresh = {
 
 
 _G.pg.base.gametip.island_season_charts_out = {
-	tip = "Unranked"
+	tip = "Not in Rank"
 }
 
 
@@ -48102,7 +48102,7 @@ _G.pg.base.gametip.child2_pool_exhausted = {
 
 
 _G.pg.base.gametip.child2_secretary_skin_confirm = {
-	tip = "尚未获得换装，前往换装商店购买？"
+	tip = "You haven't unlocked this outfit. Go to the Outfits Shop to buy it?"
 }
 
 

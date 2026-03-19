@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit1_tone3/drom3d_aegir_ik_gfit1_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "把手伸出来……我想干什么？你先把手伸出来如何？",
+			say = "Give me your hand... Why? Just do it, and you'll find out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

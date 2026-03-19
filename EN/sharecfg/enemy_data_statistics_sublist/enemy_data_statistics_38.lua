@@ -997,7 +997,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[91217] = {
 		cannon = 0,
-		name = "雷根斯堡·META",
+		name = "Regensburg META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

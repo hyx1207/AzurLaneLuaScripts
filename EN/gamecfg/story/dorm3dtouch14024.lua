@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit2_tone2/drom3d_aegir_ik_gfit2_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这种小花招……练了多久？",
+			say = "How long did you rehearse that little trick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

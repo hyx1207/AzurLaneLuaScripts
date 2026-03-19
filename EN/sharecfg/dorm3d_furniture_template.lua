@@ -1756,10 +1756,10 @@ pg.dorm3d_furniture_template = {
 	},
 	[1462] = {
 		rarity = 4,
-		name = "知韵沉思",
+		name = "Quiet Contemplation",
 		type = 6,
 		room_id = 14,
-		desc = "采用古典设计的书桌，表面光滑平整，框架坚实牢固，还兼具着储物的作用，是学习和工作的不二之选。",
+		desc = "A desk with a classic design and smooth surface. Its sturdy frame provides plenty of storage space, making it ideal for study and work.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
 		is_special = 0,
