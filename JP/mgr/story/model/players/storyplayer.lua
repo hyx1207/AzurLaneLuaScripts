@@ -656,6 +656,8 @@ slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
 		end
 
 		setActive(slot4, slot6)
+	elseif slot4 and not slot2 then
+		setActive(slot4, false)
 	end
 
 	if slot3 and slot5 then
@@ -664,6 +666,8 @@ slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
 		end
 
 		setActive(slot5, slot6)
+	elseif slot5 and not slot2 then
+		setActive(slot5, false)
 	end
 end
 

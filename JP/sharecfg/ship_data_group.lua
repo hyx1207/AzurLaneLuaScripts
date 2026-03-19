@@ -30191,7 +30191,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"イベント：春色旅籠Online",
 				{
 					""
 				},
@@ -30307,7 +30307,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"イベント：春色旅籠Online",
 				{
 					""
 				},
@@ -30618,7 +30618,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"イベント：春色旅籠Online",
 				{
 					""
 				},
@@ -39536,7 +39536,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"イベント：春色旅籠Online",
 				{
 					""
 				},
