@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					12
+					19
 				},
 				{
 					0,
@@ -25,17 +25,18 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					26
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -45,74 +46,17 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					19
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50461",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					19
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 3,
+		pic = "temp3",
 		param = {
-			"scene charge",
+			"scene activity",
 			{
-				wrap = 4
+				event = "ActivityMediator.OPEN_CULTIVATING_PLANT",
+				data = {}
 			}
 		},
 		time = {
@@ -120,7 +64,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					12
+					19
 				},
 				{
 					0,
@@ -132,17 +76,50 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					18
+					26
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
+		param = "50479",
+		type = 3,
+		id = 4,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -151,119 +128,35 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		type = 2,
+		param = "50448",
+		time = "stop",
+		type = 3,
 		id = 6,
-		pic = "temp6",
-		param = {
-			"scene dailylevel"
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp6"
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					19
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
-		type = 2,
+		param = "50501",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					12
+					19
 				},
 				{
 					0,
@@ -275,7 +168,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					12,
@@ -286,36 +179,15 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		time = "stop",
+		type = 3,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"metacharacter"
-		},
-		time = {
+			"scene level",
 			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					19
-				},
-				{
-					12,
-					0,
-					0
-				}
+				open_remaster = true,
+				isSP = true
 			}
 		}
 	},
@@ -393,15 +265,15 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			4,
+			3,
 			5,
-			6,
-			7,
-			8,
-			9
+			7
 		},
 		[3] = {
-			3
+			4,
+			6,
+			8,
+			9
 		},
 		[9] = {
 			90,

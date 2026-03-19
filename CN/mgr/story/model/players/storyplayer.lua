@@ -643,12 +643,27 @@ slot0.UpdateOptionTxt = function(slot0, slot1, slot2, slot3, slot4)
 		slot5.preferredHeight = slot6.rect.height
 	end
 
-	if slot6:Find("type1") then
-		setActive(slot6:Find("type1"), slot4 and slot4 == 1)
+	slot0:UpdateOptionBGWithTB(slot6, slot4)
+end
+
+slot0.UpdateOptionBGWithTB = function(slot0, slot1, slot2)
+	slot4 = slot1:Find("type1")
+	slot5 = slot1:Find("type2")
+
+	if getProxy(NewEducateProxy):GetCurChar() and slot4 then
+		if slot2 and slot2 == 1 then
+			LoadImageSpriteAsync("neweducateicon/" .. slot3:GetPersonalityTagOptionBg(slot2), slot4)
+		end
+
+		setActive(slot4, slot6)
 	end
 
-	if slot6:Find("type2") then
-		setActive(slot6:Find("type2"), slot4 and slot4 == 2)
+	if slot3 and slot5 then
+		if slot2 and slot2 == 2 then
+			LoadImageSpriteAsync("neweducateicon/" .. slot3:GetPersonalityTagOptionBg(slot2), slot5)
+		end
+
+		setActive(slot5, slot6)
 	end
 end
 

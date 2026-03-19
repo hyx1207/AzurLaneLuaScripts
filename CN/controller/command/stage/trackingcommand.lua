@@ -193,16 +193,6 @@ slot0.execute = function(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0:IsSupportSubmarineStage() and #uv0:getSupportFleet() > 0 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("submarine_support_oil_consume_tip", getGameset("submarine_support_oil_consume")[1]),
-					onYes = slot0
-				})
-			else
-				slot0()
-			end
-		end,
-		function (slot0)
 			slot2 = uv0:getConfig("enter_story_limit")
 
 			if uv0:getConfig("enter_story") and slot1 ~= "" and uv1:isCrossStoryLimit(slot2) and not uv2:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
