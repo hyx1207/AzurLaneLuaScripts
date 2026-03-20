@@ -4318,7 +4318,6 @@ pg.memory_template = setmetatable({
 		20199,
 		20200,
 		20201,
-		20202,
 		20203,
 		20204,
 		20205,
@@ -69080,21 +69079,6 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"TANSUOZHEXINZHIXUYU6"
-		}
-	},
-	[20202] = {
-		mask = "bg/bg_memory",
-		subtitle = "",
-		type = 1,
-		number = 0,
-		title = "游乐园邀约",
-		condition = "「养成计划」-探索者中，触发相应谈心",
-		story = "TANSUOZHEXINZHIXUYU7",
-		id = 20202,
-		icon = "oceana_tanxin",
-		is_open = 0,
-		unlock_pre = {
-			"TANSUOZHEXINZHIXUYU7"
 		}
 	},
 	[20203] = {
